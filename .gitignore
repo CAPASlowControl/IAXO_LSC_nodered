@@ -1,0 +1,8 @@
+flows_cred.json
+lib
+node_modules
+node-red
+package.json
+package-lock.json  
+token
+.*
