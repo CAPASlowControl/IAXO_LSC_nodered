@@ -53,7 +53,6 @@ Credentials are encrypted usin `node-red admin hash-pw`.
 
 # TODO LIST
 
-- Serial Out Check
 - Serial In Check & Connection Management
 - Database tableName
 - Migrate Slack messages to Mattermost
