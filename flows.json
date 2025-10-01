@@ -742,10 +742,13 @@
             "db15c7f97ed85c96",
             "5edb138768f23c01",
             "e840be78efd00924",
-            "b0322ebb68974a20"
+            "b0322ebb68974a20",
+            "d1b3f40ac139b011"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 912,
+        "h": 922
     },
     {
         "id": "af537d75ee83cd4b",
@@ -769,7 +772,9 @@
             "b27c178031ed06f3"
         ],
         "x": 954,
-        "y": 239
+        "y": 239,
+        "w": 1232,
+        "h": 202
     },
     {
         "id": "3be55cc3dc3dacdd",
@@ -790,7 +795,9 @@
             "32a1a5efd9a76419"
         ],
         "x": 954,
-        "y": 459
+        "y": 459,
+        "w": 1272,
+        "h": 142
     },
     {
         "id": "9afe5eb3a3df483b",
@@ -811,7 +818,9 @@
             "8829d19dd8c4d5d4"
         ],
         "x": 954,
-        "y": 619
+        "y": 619,
+        "w": 1292,
+        "h": 142
     },
     {
         "id": "4d028edbed9995c2",
@@ -832,7 +841,9 @@
             "a59f02ba17b56c95"
         ],
         "x": 954,
-        "y": 779
+        "y": 779,
+        "w": 1292,
+        "h": 142
     },
     {
         "id": "62882ad4f7217080",
@@ -852,7 +863,9 @@
             "a5fb5c948889de7c"
         ],
         "x": 1684,
-        "y": 1593
+        "y": 1593,
+        "w": 922,
+        "h": 294
     },
     {
         "id": "1551714e3dacd918",
@@ -881,7 +894,9 @@
             "3a378206e1881ba0"
         ],
         "x": 94,
-        "y": 999
+        "y": 999,
+        "w": 1092,
+        "h": 322
     },
     {
         "id": "b97b8ef4388f44e1",
@@ -905,7 +920,9 @@
             "767530e6718e2150"
         ],
         "x": 954,
-        "y": 19
+        "y": 19,
+        "w": 1212,
+        "h": 202
     },
     {
         "id": "580b81533f909648",
@@ -937,7 +954,9 @@
             "13906eebf7af5776"
         ],
         "x": 114,
-        "y": 1519
+        "y": 1519,
+        "w": 1332,
+        "h": 402
     },
     {
         "id": "37ec674883578701",
@@ -958,8 +977,10 @@
             "433fcc04d53755af",
             "4421ddf72a379e83"
         ],
-        "x": 64,
-        "y": 1999
+        "x": 1524,
+        "y": 2179,
+        "w": 1342,
+        "h": 142
     },
     {
         "id": "b7c4e8837b8eba93",
@@ -981,7 +1002,9 @@
             "22ba398b9ecf18d0"
         ],
         "x": 1484,
-        "y": 1999
+        "y": 1999,
+        "w": 1282,
+        "h": 142
     },
     {
         "id": "ac32791aae5e9dc1",
@@ -1013,7 +1036,9 @@
             "837ae1cc9b9ee098"
         ],
         "x": 94,
-        "y": 219
+        "y": 219,
+        "w": 1392,
+        "h": 282
     },
     {
         "id": "3a6beea2aac65b4c",
@@ -1028,7 +1053,9 @@
             "aa100609932dd7f7"
         ],
         "x": 1674,
-        "y": 1159
+        "y": 1159,
+        "w": 332,
+        "h": 82
     },
     {
         "id": "e8c8c933bba0b283",
@@ -1050,6 +1077,8 @@
         ],
         "x": 194,
         "y": 39,
+        "w": 1022,
+        "h": 142,
         "info": "This group controls the EV security in the System. \nTwo task are made: \n    1- Send a message to slack warning with the EV close or open\n    2- Is the EV are closing, disable all the CAEN dashboard settings "
     },
     {
@@ -1071,7 +1100,9 @@
             "afe3c1b51977d0af"
         ],
         "x": 1674,
-        "y": 1259
+        "y": 1259,
+        "w": 312,
+        "h": 202
     },
     {
         "id": "9ba1eac4fb097bd3",
@@ -1094,6 +1125,8 @@
         ],
         "x": 1624,
         "y": 699,
+        "w": 1102,
+        "h": 322,
         "info": "The idea is to recieve an alert if the USB port lost connection, with the trigger wait we can filter if is a puntual error or the port connection has been fully lost; \nIn the switch node you must select the name choosen in the serial rules of the PC: /etc/udev/rules.d/99-sub-serial.rules"
     },
     {
@@ -1119,6 +1152,8 @@
         ],
         "x": 1594,
         "y": 19,
+        "w": 1162,
+        "h": 237.83333333333331,
         "info": "The idea is to recieve an alert if the USB port lost connection, with the trigger wait we can filter if is a puntual error or the port connection has been fully lost; \nIn the switch node you must select the name choosen in the serial rules of the PC: /etc/udev/rules.d/99-sub-serial.rules"
     },
     {
@@ -1145,6 +1180,8 @@
         ],
         "x": 1614,
         "y": 319,
+        "w": 1152,
+        "h": 324.5,
         "info": "The idea is to recieve an alert if the USB port lost connection, with the trigger wait we can filter if is a puntual error or the port connection has been fully lost; \nIn the switch node you must select the name choosen in the serial rules of the PC: /etc/udev/rules.d/99-sub-serial.rules"
     },
     {
@@ -1164,6 +1201,8 @@
         ],
         "x": 154,
         "y": 1659,
+        "w": 1132,
+        "h": 282,
         "info": "This group is for making the nodered reestart automatically. \nBe aware using it. For more information about how to use it read NodeRed Docs in NAS. "
     },
     {
@@ -1246,7 +1285,9 @@
             "e50d0dc78dcc890f"
         ],
         "x": 354,
-        "y": 1119
+        "y": 1119,
+        "w": 1112,
+        "h": 262
     },
     {
         "id": "712505f3c52dc732",
@@ -1266,7 +1307,9 @@
             "fd04d7aeb0f41c2e"
         ],
         "x": 4,
-        "y": 1439
+        "y": 1439,
+        "w": 622,
+        "h": 202
     },
     {
         "id": "5a835051bbf2dbfa",
@@ -1307,7 +1350,9 @@
             "4a9c7736b4b47fa8"
         ],
         "x": 1554,
-        "y": 1519
+        "y": 1519,
+        "w": 812,
+        "h": 282
     },
     {
         "id": "0e507b521cdc2270",
@@ -1443,7 +1488,9 @@
             "0957f1d3fe99dce9"
         ],
         "x": 104,
-        "y": 559
+        "y": 559,
+        "w": 1412,
+        "h": 262
     },
     {
         "id": "8b78f355b0febede",
@@ -1507,7 +1554,9 @@
             "eca5bb2e0e780868"
         ],
         "x": 1204,
-        "y": 959
+        "y": 959,
+        "w": 1102,
+        "h": 488
     },
     {
         "id": "65eeadd967ef5a00",
@@ -1670,7 +1719,9 @@
             "57f0971a909279ed"
         ],
         "x": 1974,
-        "y": 1619
+        "y": 1619,
+        "w": 392,
+        "h": 242
     },
     {
         "id": "72c48db6f9d759e7",
@@ -1901,7 +1952,9 @@
             "36d3b29d534ee056"
         ],
         "x": 1744,
-        "y": 1279
+        "y": 1279,
+        "w": 322,
+        "h": 142
     },
     {
         "id": "252f0d91daf598e4",
@@ -2096,6 +2149,27 @@
         ],
         "x": 1214,
         "y": 1319
+    },
+    {
+        "id": "b5ceaf3156013cdd",
+        "type": "group",
+        "z": "ac988ebf643b965c",
+        "name": "Memory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6a1e05a93b49f364",
+            "ddc199bd6233c48f",
+            "5f1a082a7ee9ebbf",
+            "db84a4a5b41eb94d",
+            "dbab5c051d78f499",
+            "e69a86b377c0f4a0"
+        ],
+        "x": 94,
+        "y": 2039,
+        "w": 1172,
+        "h": 102
     },
     {
         "id": "67018f7a.7112a8",
@@ -27177,6 +27251,111 @@
         "wires": []
     },
     {
+        "id": "e24ab75d82521da3",
+        "type": "exec",
+        "z": "b9b91436ca2c1818",
+        "command": "P=$(systemctl show --property MainPID --value nodered); top -b -n1 -em -p$P | grep $P | xargs | cut -d \" \" -f6",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 770,
+        "y": 2040,
+        "wires": [
+            [
+                "8772dfbf041a2ded"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "25e28d41da54114b",
+        "type": "inject",
+        "z": "b9b91436ca2c1818",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": ":",
+        "payloadType": "str",
+        "x": 250,
+        "y": 2040,
+        "wires": [
+            [
+                "e24ab75d82521da3"
+            ]
+        ]
+    },
+    {
+        "id": "8772dfbf041a2ded",
+        "type": "function",
+        "z": "b9b91436ca2c1818",
+        "name": "msg2Float",
+        "func": "let cleanInput;\ncleanInput  = msg.payload.trim();\ncleanInput = cleanInput.replace(\"m\", \"\").replace(\"g\",\"E3\");\n\nmsg.payload = parseFloat( cleanInput );\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 2020,
+        "wires": [
+            [
+                "b5e83c07a46fc298",
+                "49a292c9331eafbf"
+            ]
+        ]
+    },
+    {
+        "id": "b5e83c07a46fc298",
+        "type": "ui_text",
+        "z": "b9b91436ca2c1818",
+        "group": "52789754d5f8a4a1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Memory",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1440,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "49a292c9331eafbf",
+        "type": "link out",
+        "z": "b9b91436ca2c1818",
+        "name": "DB_Memory",
+        "mode": "link",
+        "links": [
+            "db84a4a5b41eb94d"
+        ],
+        "x": 1405,
+        "y": 2060,
+        "wires": []
+    },
+    {
         "id": "78357f0d28a19c9e",
         "type": "ui_switch",
         "z": "8e566cce9224bcff",
@@ -29170,7 +29349,7 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": true,
+        "once": false,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "",
@@ -29178,7 +29357,9 @@
         "x": 110,
         "y": 280,
         "wires": [
-            []
+            [
+                "d1b3f40ac139b011"
+            ]
         ],
         "info": "Only enable this node when you want to inject a **new table** in the database. Link the node to the new _Create Table <X>_ node.  \n\nFor security, after create the table, delete all links and disable the node. "
     },
@@ -31059,8 +31240,8 @@
                 "tot": "str"
             }
         ],
-        "x": 410,
-        "y": 2040,
+        "x": 1870,
+        "y": 2220,
         "wires": [
             [
                 "b99fc675f8e47a5f"
@@ -31089,8 +31270,8 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 630,
-        "y": 2100,
+        "x": 2090,
+        "y": 2280,
         "wires": [
             [
                 "4421ddf72a379e83"
@@ -31116,8 +31297,8 @@
         "topic": "",
         "payload": "moistureanalyzer",
         "payloadType": "str",
-        "x": 250,
-        "y": 2100,
+        "x": 1710,
+        "y": 2280,
         "wires": [
             [
                 "6e9ef5d829533a9f"
@@ -31140,8 +31321,8 @@
                 "tot": "str"
             }
         ],
-        "x": 440,
-        "y": 2100,
+        "x": 1900,
+        "y": 2280,
         "wires": [
             [
                 "b99fc675f8e47a5f"
@@ -31155,8 +31336,8 @@
         "d": true,
         "g": "37ec674883578701",
         "name": "",
-        "x": 220,
-        "y": 2040,
+        "x": 1680,
+        "y": 2220,
         "wires": [
             [
                 "b97f859024848ed3"
@@ -31171,8 +31352,8 @@
         "g": "37ec674883578701",
         "name": "DB_Moisture_%",
         "links": [],
-        "x": 105,
-        "y": 2040,
+        "x": 1565,
+        "y": 2220,
         "wires": [
             [
                 "d95d552c6efd2712"
@@ -31192,8 +31373,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 2100,
+        "x": 2560,
+        "y": 2280,
         "wires": [
             [
                 "433fcc04d53755af"
@@ -31212,8 +31393,8 @@
         "split": false,
         "rowsPerMsg": "",
         "outputs": 1,
-        "x": 1310,
-        "y": 2100,
+        "x": 2770,
+        "y": 2280,
         "wires": [
             []
         ]
@@ -31659,8 +31840,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 780,
-        "y": 2100,
+        "x": 2240,
+        "y": 2280,
         "wires": [
             [
                 "f96e515be77b5a26"
@@ -32272,6 +32453,146 @@
         "wires": [
             [
                 "5bff3529631a4437"
+            ]
+        ]
+    },
+    {
+        "id": "d1b3f40ac139b011",
+        "type": "postgresql",
+        "z": "ac988ebf643b965c",
+        "g": "9a5715b539c43b53",
+        "name": "Create Table memory",
+        "query": "CREATE TABLE memory (\n    ID SERIAL PRIMARY KEY,\n    timestamp TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,\n    MeasurePoint FLOAT\n);\n",
+        "postgreSQLConfig": "4b3ae4eeb8191fd4",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 680,
+        "y": 160,
+        "wires": [
+            [
+                "bafb614786782f29"
+            ]
+        ]
+    },
+    {
+        "id": "6a1e05a93b49f364",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "g": "b5ceaf3156013cdd",
+        "name": "Set MeasureValue",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "MeasureValue",
+                "tot": "str"
+            }
+        ],
+        "x": 450,
+        "y": 2080,
+        "wires": [
+            [
+                "ddc199bd6233c48f"
+            ]
+        ]
+    },
+    {
+        "id": "ddc199bd6233c48f",
+        "type": "join",
+        "z": "ac988ebf643b965c",
+        "g": "b5ceaf3156013cdd",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "1",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 710,
+        "y": 2100,
+        "wires": [
+            [
+                "e69a86b377c0f4a0"
+            ]
+        ]
+    },
+    {
+        "id": "5f1a082a7ee9ebbf",
+        "type": "subflow:25852162ecd9b7ac",
+        "z": "ac988ebf643b965c",
+        "g": "b5ceaf3156013cdd",
+        "name": "",
+        "x": 240,
+        "y": 2080,
+        "wires": [
+            [
+                "6a1e05a93b49f364"
+            ]
+        ]
+    },
+    {
+        "id": "db84a4a5b41eb94d",
+        "type": "link in",
+        "z": "ac988ebf643b965c",
+        "g": "b5ceaf3156013cdd",
+        "name": "DB_Memory",
+        "links": [
+            "49a292c9331eafbf"
+        ],
+        "x": 135,
+        "y": 2080,
+        "wires": [
+            [
+                "5f1a082a7ee9ebbf"
+            ]
+        ]
+    },
+    {
+        "id": "dbab5c051d78f499",
+        "type": "subflow:4632d49027741f83",
+        "z": "ac988ebf643b965c",
+        "g": "b5ceaf3156013cdd",
+        "name": "",
+        "x": 1120,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "e69a86b377c0f4a0",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "g": "b5ceaf3156013cdd",
+        "name": "Set TableName",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.TableName",
+                "pt": "msg",
+                "to": "memory",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 2100,
+        "wires": [
+            [
+                "dbab5c051d78f499"
             ]
         ]
     },
