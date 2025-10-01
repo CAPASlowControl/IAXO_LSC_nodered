@@ -12,6 +12,13 @@ Functionalities or code that need To Be Checked is marked as (<mark>TBC</mark>).
 
 (<mark>TBC</mark>)
 
+## Database
+
+- Postgressql Database
+- Database: iaxoLSCslowctldb
+- User: postgres
+- Password: bujaruelo
+
 # Operation Notes
 
 (<mark>TBC</mark>)
@@ -54,7 +61,6 @@ Credentials are encrypted usin `node-red admin hash-pw`.
 # TODO LIST
 
 - Serial In Check & Connection Management
-- Database tableName
 - Migrate Slack messages to Mattermost
 - Review Security Flow
 
