@@ -671,7 +671,9 @@
             "fa7735ad4b4f6298"
         ],
         "x": 1554,
-        "y": 19
+        "y": 19,
+        "w": 712,
+        "h": 642
     },
     {
         "id": "ae13f41c35bfb8b7",
@@ -746,9 +748,7 @@
             "d1b3f40ac139b011"
         ],
         "x": 14,
-        "y": 19,
-        "w": 912,
-        "h": 922
+        "y": 19
     },
     {
         "id": "af537d75ee83cd4b",
@@ -772,9 +772,7 @@
             "b27c178031ed06f3"
         ],
         "x": 954,
-        "y": 239,
-        "w": 1232,
-        "h": 202
+        "y": 239
     },
     {
         "id": "3be55cc3dc3dacdd",
@@ -795,9 +793,7 @@
             "32a1a5efd9a76419"
         ],
         "x": 954,
-        "y": 459,
-        "w": 1272,
-        "h": 142
+        "y": 459
     },
     {
         "id": "9afe5eb3a3df483b",
@@ -818,9 +814,7 @@
             "8829d19dd8c4d5d4"
         ],
         "x": 954,
-        "y": 619,
-        "w": 1292,
-        "h": 142
+        "y": 619
     },
     {
         "id": "4d028edbed9995c2",
@@ -841,9 +835,7 @@
             "a59f02ba17b56c95"
         ],
         "x": 954,
-        "y": 779,
-        "w": 1292,
-        "h": 142
+        "y": 779
     },
     {
         "id": "62882ad4f7217080",
@@ -863,9 +855,7 @@
             "a5fb5c948889de7c"
         ],
         "x": 1684,
-        "y": 1593,
-        "w": 922,
-        "h": 294
+        "y": 1593
     },
     {
         "id": "1551714e3dacd918",
@@ -894,9 +884,7 @@
             "3a378206e1881ba0"
         ],
         "x": 94,
-        "y": 999,
-        "w": 1092,
-        "h": 322
+        "y": 999
     },
     {
         "id": "b97b8ef4388f44e1",
@@ -920,9 +908,7 @@
             "767530e6718e2150"
         ],
         "x": 954,
-        "y": 19,
-        "w": 1212,
-        "h": 202
+        "y": 19
     },
     {
         "id": "580b81533f909648",
@@ -954,9 +940,7 @@
             "13906eebf7af5776"
         ],
         "x": 114,
-        "y": 1519,
-        "w": 1332,
-        "h": 402
+        "y": 1519
     },
     {
         "id": "37ec674883578701",
@@ -978,9 +962,7 @@
             "4421ddf72a379e83"
         ],
         "x": 1524,
-        "y": 2179,
-        "w": 1342,
-        "h": 142
+        "y": 2179
     },
     {
         "id": "b7c4e8837b8eba93",
@@ -1002,9 +984,7 @@
             "22ba398b9ecf18d0"
         ],
         "x": 1484,
-        "y": 1999,
-        "w": 1282,
-        "h": 142
+        "y": 1999
     },
     {
         "id": "ac32791aae5e9dc1",
@@ -1036,9 +1016,7 @@
             "837ae1cc9b9ee098"
         ],
         "x": 94,
-        "y": 219,
-        "w": 1392,
-        "h": 282
+        "y": 219
     },
     {
         "id": "3a6beea2aac65b4c",
@@ -1053,9 +1031,7 @@
             "aa100609932dd7f7"
         ],
         "x": 1674,
-        "y": 1159,
-        "w": 332,
-        "h": 82
+        "y": 1159
     },
     {
         "id": "e8c8c933bba0b283",
@@ -1077,8 +1053,6 @@
         ],
         "x": 194,
         "y": 39,
-        "w": 1022,
-        "h": 142,
         "info": "This group controls the EV security in the System. \nTwo task are made: \n    1- Send a message to slack warning with the EV close or open\n    2- Is the EV are closing, disable all the CAEN dashboard settings "
     },
     {
@@ -1100,9 +1074,7 @@
             "afe3c1b51977d0af"
         ],
         "x": 1674,
-        "y": 1259,
-        "w": 312,
-        "h": 202
+        "y": 1259
     },
     {
         "id": "9ba1eac4fb097bd3",
@@ -1125,8 +1097,6 @@
         ],
         "x": 1624,
         "y": 699,
-        "w": 1102,
-        "h": 322,
         "info": "The idea is to recieve an alert if the USB port lost connection, with the trigger wait we can filter if is a puntual error or the port connection has been fully lost; \nIn the switch node you must select the name choosen in the serial rules of the PC: /etc/udev/rules.d/99-sub-serial.rules"
     },
     {
@@ -1152,8 +1122,6 @@
         ],
         "x": 1594,
         "y": 19,
-        "w": 1162,
-        "h": 237.83333333333331,
         "info": "The idea is to recieve an alert if the USB port lost connection, with the trigger wait we can filter if is a puntual error or the port connection has been fully lost; \nIn the switch node you must select the name choosen in the serial rules of the PC: /etc/udev/rules.d/99-sub-serial.rules"
     },
     {
@@ -1180,8 +1148,6 @@
         ],
         "x": 1614,
         "y": 319,
-        "w": 1152,
-        "h": 324.5,
         "info": "The idea is to recieve an alert if the USB port lost connection, with the trigger wait we can filter if is a puntual error or the port connection has been fully lost; \nIn the switch node you must select the name choosen in the serial rules of the PC: /etc/udev/rules.d/99-sub-serial.rules"
     },
     {
@@ -1201,8 +1167,6 @@
         ],
         "x": 154,
         "y": 1659,
-        "w": 1132,
-        "h": 282,
         "info": "This group is for making the nodered reestart automatically. \nBe aware using it. For more information about how to use it read NodeRed Docs in NAS. "
     },
     {
@@ -1255,7 +1219,9 @@
             "817fa2a72b58041a"
         ],
         "x": 254,
-        "y": 2039
+        "y": 2039,
+        "w": 582,
+        "h": 182
     },
     {
         "id": "653da71d018d2109",
@@ -1285,9 +1251,7 @@
             "e50d0dc78dcc890f"
         ],
         "x": 354,
-        "y": 1119,
-        "w": 1112,
-        "h": 262
+        "y": 1119
     },
     {
         "id": "712505f3c52dc732",
@@ -1307,9 +1271,7 @@
             "fd04d7aeb0f41c2e"
         ],
         "x": 4,
-        "y": 1439,
-        "w": 622,
-        "h": 202
+        "y": 1439
     },
     {
         "id": "5a835051bbf2dbfa",
@@ -1350,9 +1312,7 @@
             "4a9c7736b4b47fa8"
         ],
         "x": 1554,
-        "y": 1519,
-        "w": 812,
-        "h": 282
+        "y": 1519
     },
     {
         "id": "0e507b521cdc2270",
@@ -1488,9 +1448,7 @@
             "0957f1d3fe99dce9"
         ],
         "x": 104,
-        "y": 559,
-        "w": 1412,
-        "h": 262
+        "y": 559
     },
     {
         "id": "8b78f355b0febede",
@@ -1554,9 +1512,7 @@
             "eca5bb2e0e780868"
         ],
         "x": 1204,
-        "y": 959,
-        "w": 1102,
-        "h": 488
+        "y": 959
     },
     {
         "id": "65eeadd967ef5a00",
@@ -1678,6 +1634,25 @@
         "y": 459
     },
     {
+        "id": "b5ceaf3156013cdd",
+        "type": "group",
+        "z": "ac988ebf643b965c",
+        "name": "Memory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6a1e05a93b49f364",
+            "ddc199bd6233c48f",
+            "5f1a082a7ee9ebbf",
+            "db84a4a5b41eb94d",
+            "dbab5c051d78f499",
+            "e69a86b377c0f4a0"
+        ],
+        "x": 94,
+        "y": 2039
+    },
+    {
         "id": "1c0573eef2dd3204",
         "type": "group",
         "z": "8e566cce9224bcff",
@@ -1719,9 +1694,7 @@
             "57f0971a909279ed"
         ],
         "x": 1974,
-        "y": 1619,
-        "w": 392,
-        "h": 242
+        "y": 1619
     },
     {
         "id": "72c48db6f9d759e7",
@@ -1952,9 +1925,7 @@
             "36d3b29d534ee056"
         ],
         "x": 1744,
-        "y": 1279,
-        "w": 322,
-        "h": 142
+        "y": 1279
     },
     {
         "id": "252f0d91daf598e4",
@@ -2149,27 +2120,6 @@
         ],
         "x": 1214,
         "y": 1319
-    },
-    {
-        "id": "b5ceaf3156013cdd",
-        "type": "group",
-        "z": "ac988ebf643b965c",
-        "name": "Memory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "6a1e05a93b49f364",
-            "ddc199bd6233c48f",
-            "5f1a082a7ee9ebbf",
-            "db84a4a5b41eb94d",
-            "dbab5c051d78f499",
-            "e69a86b377c0f4a0"
-        ],
-        "x": 94,
-        "y": 2039,
-        "w": 1172,
-        "h": 102
     },
     {
         "id": "67018f7a.7112a8",
@@ -3066,7 +3016,7 @@
         "bin": "false",
         "out": "char",
         "addchar": "",
-        "responsetimeout": "800"
+        "responsetimeout": "900"
     },
     {
         "id": "51d44b219a8ec99f",
@@ -21352,7 +21302,7 @@
         "z": "5845d80ccef7ae3e",
         "name": "ID1_CT_F1 RM Connection status",
         "scope": [
-            "5c615f97508de62d"
+            "ac8f5bb8206df223"
         ],
         "x": 3660,
         "y": 2580,
@@ -21502,7 +21452,7 @@
         "z": "5845d80ccef7ae3e",
         "name": "ID1_CT_F1 RS Connection status",
         "scope": [
-            "17556c3aa1e11195"
+            "f8b2a5ab837eb7a5"
         ],
         "x": 4150,
         "y": 2040,
@@ -21605,7 +21555,7 @@
         "links": [
             "88661806d61ff6d6"
         ],
-        "x": 4315,
+        "x": 4355,
         "y": 1940,
         "wires": []
     },
@@ -22838,7 +22788,7 @@
         "y": 2460,
         "wires": [
             [
-                "fcb15051c328c7eb"
+                "ac8f5bb8206df223"
             ]
         ]
     },
@@ -23537,7 +23487,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 4235,
+        "x": 4265,
         "y": 1980,
         "wires": [
             [
@@ -23717,30 +23667,30 @@
         ]
     },
     {
-        "id": "fcb15051c328c7eb",
-        "type": "serial request",
-        "z": "5845d80ccef7ae3e",
-        "name": "",
-        "serial": "dfc0016290f7a444",
-        "x": 3600,
-        "y": 2460,
-        "wires": [
-            [
-                "85969326bfcb970f"
-            ]
-        ]
-    },
-    {
         "id": "f8b2a5ab837eb7a5",
         "type": "serial request",
         "z": "5845d80ccef7ae3e",
-        "name": "",
+        "name": "ID1_CT_F1 SetP OpQuery ",
         "serial": "dfc0016290f7a444",
-        "x": 4060,
+        "x": 4100,
         "y": 1980,
         "wires": [
             [
                 "1621a44386b54657"
+            ]
+        ]
+    },
+    {
+        "id": "ac8f5bb8206df223",
+        "type": "serial request",
+        "z": "5845d80ccef7ae3e",
+        "name": "ID1_CT_F1 Meas OpQuery ",
+        "serial": "dfc0016290f7a444",
+        "x": 3620,
+        "y": 2460,
+        "wires": [
+            [
+                "85969326bfcb970f"
             ]
         ]
     },
