@@ -707,7 +707,9 @@
             "382dbcfb85f50a81"
         ],
         "x": 4244,
-        "y": 1939
+        "y": 1939,
+        "w": 352,
+        "h": 82
     },
     {
         "id": "5bdc8af424858554",
@@ -722,7 +724,9 @@
             "276635b34051e334"
         ],
         "x": 4634,
-        "y": 2039
+        "y": 2039,
+        "w": 332,
+        "h": 82
     },
     {
         "id": "9a5715b539c43b53",
@@ -750,10 +754,13 @@
             "5edb138768f23c01",
             "e840be78efd00924",
             "b0322ebb68974a20",
-            "d1b3f40ac139b011"
+            "d1b3f40ac139b011",
+            "01ea21af7f1c937b"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 912,
+        "h": 922
     },
     {
         "id": "af537d75ee83cd4b",
@@ -777,7 +784,9 @@
             "b27c178031ed06f3"
         ],
         "x": 954,
-        "y": 239
+        "y": 239,
+        "w": 1232,
+        "h": 202
     },
     {
         "id": "3be55cc3dc3dacdd",
@@ -798,7 +807,9 @@
             "32a1a5efd9a76419"
         ],
         "x": 954,
-        "y": 459
+        "y": 459,
+        "w": 1272,
+        "h": 142
     },
     {
         "id": "9afe5eb3a3df483b",
@@ -819,7 +830,9 @@
             "8829d19dd8c4d5d4"
         ],
         "x": 954,
-        "y": 619
+        "y": 619,
+        "w": 1292,
+        "h": 142
     },
     {
         "id": "4d028edbed9995c2",
@@ -840,7 +853,9 @@
             "a59f02ba17b56c95"
         ],
         "x": 954,
-        "y": 779
+        "y": 779,
+        "w": 1292,
+        "h": 142
     },
     {
         "id": "62882ad4f7217080",
@@ -860,7 +875,9 @@
             "a5fb5c948889de7c"
         ],
         "x": 1684,
-        "y": 1593
+        "y": 1593,
+        "w": 922,
+        "h": 294
     },
     {
         "id": "1551714e3dacd918",
@@ -889,7 +906,9 @@
             "3a378206e1881ba0"
         ],
         "x": 94,
-        "y": 999
+        "y": 999,
+        "w": 1092,
+        "h": 322
     },
     {
         "id": "b97b8ef4388f44e1",
@@ -913,7 +932,9 @@
             "767530e6718e2150"
         ],
         "x": 954,
-        "y": 19
+        "y": 19,
+        "w": 1212,
+        "h": 202
     },
     {
         "id": "580b81533f909648",
@@ -945,7 +966,9 @@
             "13906eebf7af5776"
         ],
         "x": 114,
-        "y": 1519
+        "y": 1519,
+        "w": 1332,
+        "h": 402
     },
     {
         "id": "37ec674883578701",
@@ -967,7 +990,9 @@
             "4421ddf72a379e83"
         ],
         "x": 1524,
-        "y": 2179
+        "y": 2179,
+        "w": 1342,
+        "h": 142
     },
     {
         "id": "b7c4e8837b8eba93",
@@ -989,7 +1014,9 @@
             "22ba398b9ecf18d0"
         ],
         "x": 1484,
-        "y": 1999
+        "y": 1999,
+        "w": 1282,
+        "h": 142
     },
     {
         "id": "ac32791aae5e9dc1",
@@ -1021,7 +1048,9 @@
             "837ae1cc9b9ee098"
         ],
         "x": 94,
-        "y": 219
+        "y": 219,
+        "w": 1392,
+        "h": 282
     },
     {
         "id": "3a6beea2aac65b4c",
@@ -1036,7 +1065,9 @@
             "aa100609932dd7f7"
         ],
         "x": 1674,
-        "y": 1159
+        "y": 1159,
+        "w": 332,
+        "h": 82
     },
     {
         "id": "e8c8c933bba0b283",
@@ -1058,6 +1089,8 @@
         ],
         "x": 194,
         "y": 39,
+        "w": 1022,
+        "h": 142,
         "info": "This group controls the EV security in the System. \nTwo task are made: \n    1- Send a message to slack warning with the EV close or open\n    2- Is the EV are closing, disable all the CAEN dashboard settings "
     },
     {
@@ -1079,7 +1112,9 @@
             "afe3c1b51977d0af"
         ],
         "x": 1674,
-        "y": 1259
+        "y": 1259,
+        "w": 312,
+        "h": 202
     },
     {
         "id": "9ba1eac4fb097bd3",
@@ -1102,6 +1137,8 @@
         ],
         "x": 1624,
         "y": 699,
+        "w": 1102,
+        "h": 322,
         "info": "The idea is to recieve an alert if the USB port lost connection, with the trigger wait we can filter if is a puntual error or the port connection has been fully lost; \nIn the switch node you must select the name choosen in the serial rules of the PC: /etc/udev/rules.d/99-sub-serial.rules"
     },
     {
@@ -1127,6 +1164,8 @@
         ],
         "x": 1594,
         "y": 19,
+        "w": 1162,
+        "h": 237.83333333333331,
         "info": "The idea is to recieve an alert if the USB port lost connection, with the trigger wait we can filter if is a puntual error or the port connection has been fully lost; \nIn the switch node you must select the name choosen in the serial rules of the PC: /etc/udev/rules.d/99-sub-serial.rules"
     },
     {
@@ -1153,6 +1192,8 @@
         ],
         "x": 1614,
         "y": 319,
+        "w": 1152,
+        "h": 324.5,
         "info": "The idea is to recieve an alert if the USB port lost connection, with the trigger wait we can filter if is a puntual error or the port connection has been fully lost; \nIn the switch node you must select the name choosen in the serial rules of the PC: /etc/udev/rules.d/99-sub-serial.rules"
     },
     {
@@ -1172,6 +1213,8 @@
         ],
         "x": 154,
         "y": 1659,
+        "w": 1132,
+        "h": 282,
         "info": "This group is for making the nodered reestart automatically. \nBe aware using it. For more information about how to use it read NodeRed Docs in NAS. "
     },
     {
@@ -1254,7 +1297,9 @@
             "e50d0dc78dcc890f"
         ],
         "x": 354,
-        "y": 1119
+        "y": 1119,
+        "w": 1112,
+        "h": 262
     },
     {
         "id": "712505f3c52dc732",
@@ -1274,7 +1319,9 @@
             "fd04d7aeb0f41c2e"
         ],
         "x": 4,
-        "y": 1439
+        "y": 1439,
+        "w": 622,
+        "h": 202
     },
     {
         "id": "5a835051bbf2dbfa",
@@ -1315,7 +1362,9 @@
             "4a9c7736b4b47fa8"
         ],
         "x": 1554,
-        "y": 1519
+        "y": 1519,
+        "w": 812,
+        "h": 282
     },
     {
         "id": "0e507b521cdc2270",
@@ -1451,7 +1500,9 @@
             "0957f1d3fe99dce9"
         ],
         "x": 104,
-        "y": 559
+        "y": 559,
+        "w": 1412,
+        "h": 262
     },
     {
         "id": "8b78f355b0febede",
@@ -1515,7 +1566,9 @@
             "eca5bb2e0e780868"
         ],
         "x": 1204,
-        "y": 959
+        "y": 959,
+        "w": 1102,
+        "h": 408
     },
     {
         "id": "65eeadd967ef5a00",
@@ -1653,7 +1706,9 @@
             "e69a86b377c0f4a0"
         ],
         "x": 94,
-        "y": 2039
+        "y": 2039,
+        "w": 1172,
+        "h": 102
     },
     {
         "id": "d48cd0f696d1f5ea",
@@ -2529,7 +2584,8 @@
             "ee47070f4b76477b",
             "ab116dbfa137f49f",
             "75413555ea56537d",
-            "a9b88e45cd23e579"
+            "a9b88e45cd23e579",
+            "a3ab30fa7ad45b5c"
         ],
         "x": 58,
         "y": 3599,
@@ -2561,7 +2617,8 @@
             "61557b56b90f5005",
             "a9c0548fc97f6bd4",
             "b65637b39f05701f",
-            "872b3bde2d354f28"
+            "872b3bde2d354f28",
+            "34782ac2922a3a25"
         ],
         "x": 1344,
         "y": 3599,
@@ -2592,7 +2649,8 @@
             "8788a73f4eaa9997",
             "7c795a99d82c64e7",
             "bcf9661b82ebf8c0",
-            "c5f812411b93a189"
+            "c5f812411b93a189",
+            "c86ffd748ddfc8ff"
         ],
         "x": 2568,
         "y": 3599,
@@ -2623,7 +2681,8 @@
             "4589c4b78800243b",
             "96d67a5791d35635",
             "093a4a9138375273",
-            "a52faa7f80e1a95d"
+            "a52faa7f80e1a95d",
+            "7d4720bdb8eedda4"
         ],
         "x": 3794,
         "y": 3619,
@@ -2742,7 +2801,9 @@
             "57f0971a909279ed"
         ],
         "x": 1974,
-        "y": 1619
+        "y": 1619,
+        "w": 392,
+        "h": 242
     },
     {
         "id": "72c48db6f9d759e7",
@@ -2972,8 +3033,10 @@
             "a49a8996f9c84483",
             "36d3b29d534ee056"
         ],
-        "x": 1744,
-        "y": 1279
+        "x": 1764,
+        "y": 1199,
+        "w": 322,
+        "h": 142
     },
     {
         "id": "340e1600a8cf737f",
@@ -4057,6 +4120,69 @@
         ],
         "x": 1214,
         "y": 1319
+    },
+    {
+        "id": "28a72e9bbd5bdfcc",
+        "type": "group",
+        "z": "ac988ebf643b965c",
+        "name": "DB insert HV2_PS (ch2, ch3)",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3d40ce8f8d239f2c",
+            "8b66b1d978b66a77",
+            "e9e9fee8a38c7532",
+            "fd7f58210ef6f243",
+            "3fa563c74c35a2de",
+            "c01304e5cc311d19",
+            "8c7510ee56be8804",
+            "55cb6002112629f3",
+            "23d19ed63cf64d37",
+            "3f37e2058279ca60",
+            "23491436703c1928",
+            "b0442c9ede1b293b",
+            "3adbd6880d20d0b8",
+            "aaf76430b78f738e",
+            "17fb53ca7796f539",
+            "6e78b5284c7965d5",
+            "9e9269c9e1ee7b4f",
+            "de807af5a3524e80",
+            "cc3da5758b5a6983",
+            "1776a26308f3d65a",
+            "23b19d9ae1b16d12",
+            "028a9539041ca31c",
+            "f5be0a06ff0e56fb",
+            "e946bd96d43d9fd0",
+            "fecf9b1bb8dd2489",
+            "597af81b8971f4e3",
+            "3e338fa980e62bd8",
+            "90ffcaa9aea8b1ab"
+        ],
+        "x": 2344,
+        "y": 959,
+        "w": 1202,
+        "h": 408
+    },
+    {
+        "id": "597af81b8971f4e3",
+        "type": "group",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "Trips insert",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5000ce269b79c969",
+            "cfc18ee593d9806c",
+            "95e1b2ad63d483c1",
+            "87b7022ad923b86f"
+        ],
+        "x": 2904,
+        "y": 1199,
+        "w": 322,
+        "h": 142
     },
     {
         "id": "67018f7a.7112a8",
@@ -18523,8 +18649,8 @@
         "links": [
             "b03eb95b9a9edddf"
         ],
-        "x": 4585,
-        "y": 1720,
+        "x": 4565,
+        "y": 1760,
         "wires": []
     },
     {
@@ -20016,7 +20142,9 @@
         "g": "b7d565f8c1d444b8",
         "name": "DB_HVPS_Ch0_Imon",
         "mode": "link",
-        "links": [],
+        "links": [
+            "de4816e136477519"
+        ],
         "x": 1085,
         "y": 2280,
         "wires": []
@@ -20228,7 +20356,10 @@
         "g": "734a5d56201614fe",
         "name": "DB_HVPS_IDN",
         "mode": "link",
-        "links": [],
+        "links": [
+            "92db498d706ab478",
+            "de807af5a3524e80"
+        ],
         "x": 1155,
         "y": 420,
         "wires": []
@@ -20436,7 +20567,9 @@
         "g": "47cd93d9e02b875f",
         "name": "DB_HVPS_Ch0_Vset",
         "mode": "link",
-        "links": [],
+        "links": [
+            "80f94cee72043c45"
+        ],
         "x": 1095,
         "y": 1160,
         "wires": []
@@ -22088,7 +22221,9 @@
         "g": "b7d565f8c1d444b8",
         "name": "DB_HVPS_Ch0_Vmon",
         "mode": "link",
-        "links": [],
+        "links": [
+            "415d040b27b20c66"
+        ],
         "x": 1065,
         "y": 2120,
         "wires": []
@@ -23011,7 +23146,9 @@
         "g": "f20de75c380fd5a1",
         "name": "DB_HVPS_Ch1_Vset",
         "mode": "link",
-        "links": [],
+        "links": [
+            "73e369d02dbc8560"
+        ],
         "x": 2415,
         "y": 1160,
         "wires": []
@@ -24131,7 +24268,9 @@
         "g": "e587a3b0695cfa81",
         "name": "DB_HVPS_Ch1_Imon",
         "mode": "link",
-        "links": [],
+        "links": [
+            "586fb1dd2ba78beb"
+        ],
         "x": 2445,
         "y": 2300,
         "wires": []
@@ -24603,7 +24742,9 @@
         "g": "e587a3b0695cfa81",
         "name": "DB_HVPS_Ch1_Vmon",
         "mode": "link",
-        "links": [],
+        "links": [
+            "5a5411a6ccb490b5"
+        ],
         "x": 2425,
         "y": 2140,
         "wires": []
@@ -26597,7 +26738,9 @@
         "g": "76708897e5041bc9",
         "name": "DB_HVPS_Ch2_Vset",
         "mode": "link",
-        "links": [],
+        "links": [
+            "9e9269c9e1ee7b4f"
+        ],
         "x": 3635,
         "y": 1160,
         "wires": []
@@ -27717,7 +27860,9 @@
         "g": "4bb98bb9b4dea328",
         "name": "DB_HVPS_Ch2_Imon",
         "mode": "link",
-        "links": [],
+        "links": [
+            "6e78b5284c7965d5"
+        ],
         "x": 3625,
         "y": 2300,
         "wires": []
@@ -28189,7 +28334,9 @@
         "g": "4bb98bb9b4dea328",
         "name": "DB_HVPS_Ch2_Vmon",
         "mode": "link",
-        "links": [],
+        "links": [
+            "aaf76430b78f738e"
+        ],
         "x": 3605,
         "y": 2140,
         "wires": []
@@ -29102,7 +29249,9 @@
         "g": "8e829fad2eab967a",
         "name": "DB_HVPS_Ch3_Vset",
         "mode": "link",
-        "links": [],
+        "links": [
+            "17fb53ca7796f539"
+        ],
         "x": 4795,
         "y": 1160,
         "wires": []
@@ -30222,7 +30371,9 @@
         "g": "e95941fab369c9ba",
         "name": "DB_HVPS_Ch3_Imon",
         "mode": "link",
-        "links": [],
+        "links": [
+            "3adbd6880d20d0b8"
+        ],
         "x": 4725,
         "y": 2300,
         "wires": []
@@ -30694,7 +30845,9 @@
         "g": "e95941fab369c9ba",
         "name": "DB_HVPS_Ch3_Vmon",
         "mode": "link",
-        "links": [],
+        "links": [
+            "b0442c9ede1b293b"
+        ],
         "x": 4705,
         "y": 2140,
         "wires": []
@@ -32169,7 +32322,8 @@
             [
                 "3c51365b926dffd0",
                 "6b7ec3bc1fd96972",
-                "e8961798a0349d16"
+                "e8961798a0349d16",
+                "a3ab30fa7ad45b5c"
             ],
             [
                 "13a8724814928232",
@@ -32210,8 +32364,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 770,
-        "y": 3780,
+        "x": 780,
+        "y": 3820,
         "wires": [
             [
                 "18dfb1758cf301c0"
@@ -32226,8 +32380,8 @@
         "name": "ch0 out",
         "mode": "link",
         "links": [],
-        "x": 945,
-        "y": 3780,
+        "x": 955,
+        "y": 3820,
         "wires": []
     },
     {
@@ -32455,8 +32609,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 740,
-        "y": 3860,
+        "x": 750,
+        "y": 3900,
         "wires": [
             []
         ]
@@ -32473,8 +32627,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 740,
-        "y": 3820,
+        "x": 750,
+        "y": 3860,
         "wires": [
             []
         ]
@@ -32755,7 +32909,8 @@
             [
                 "7eb089f600f6f97f",
                 "8b4820eb56cdf0e5",
-                "8cf53933d64f6ada"
+                "8cf53933d64f6ada",
+                "34782ac2922a3a25"
             ],
             [
                 "14eb904db0e068e6",
@@ -32797,7 +32952,7 @@
         "finalize": "",
         "libs": [],
         "x": 2040,
-        "y": 3780,
+        "y": 3820,
         "wires": [
             [
                 "5347f5c2767a1b5f"
@@ -32813,7 +32968,7 @@
         "mode": "link",
         "links": [],
         "x": 2215,
-        "y": 3780,
+        "y": 3820,
         "wires": []
     },
     {
@@ -32865,7 +33020,7 @@
         "finalize": "",
         "libs": [],
         "x": 2010,
-        "y": 3820,
+        "y": 3860,
         "wires": [
             []
         ]
@@ -32883,7 +33038,7 @@
         "finalize": "",
         "libs": [],
         "x": 2010,
-        "y": 3860,
+        "y": 3900,
         "wires": [
             []
         ]
@@ -33908,7 +34063,8 @@
             [
                 "558ce4cc1e5b6313",
                 "9f8bc517784ea980",
-                "85481c8d1433a6a0"
+                "85481c8d1433a6a0",
+                "c86ffd748ddfc8ff"
             ],
             [
                 "cee6fb2a94102405",
@@ -33950,7 +34106,7 @@
         "finalize": "",
         "libs": [],
         "x": 3220,
-        "y": 3780,
+        "y": 3820,
         "wires": [
             [
                 "312178dd50cb33a8"
@@ -33966,7 +34122,7 @@
         "mode": "link",
         "links": [],
         "x": 3395,
-        "y": 3780,
+        "y": 3820,
         "wires": []
     },
     {
@@ -34018,7 +34174,7 @@
         "finalize": "",
         "libs": [],
         "x": 3190,
-        "y": 3820,
+        "y": 3860,
         "wires": [
             []
         ]
@@ -34036,7 +34192,7 @@
         "finalize": "",
         "libs": [],
         "x": 3190,
-        "y": 3860,
+        "y": 3900,
         "wires": [
             []
         ]
@@ -35010,7 +35166,8 @@
             [
                 "2bd8582415603ce8",
                 "97912c1226efcc8c",
-                "71775b3cebd2fd63"
+                "71775b3cebd2fd63",
+                "7d4720bdb8eedda4"
             ],
             [
                 "44f8bf29060a9525",
@@ -35051,8 +35208,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 4470,
-        "y": 3800,
+        "x": 4460,
+        "y": 3840,
         "wires": [
             [
                 "382f9b40615c9cf9"
@@ -35067,8 +35224,8 @@
         "name": "ch3 out",
         "mode": "link",
         "links": [],
-        "x": 4645,
-        "y": 3800,
+        "x": 4635,
+        "y": 3840,
         "wires": []
     },
     {
@@ -35119,8 +35276,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 4440,
-        "y": 3840,
+        "x": 4430,
+        "y": 3880,
         "wires": [
             []
         ]
@@ -35137,8 +35294,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 4440,
-        "y": 3880,
+        "x": 4430,
+        "y": 3920,
         "wires": [
             []
         ]
@@ -38553,6 +38710,62 @@
         "name": "Front ILOCK",
         "x": 4770,
         "y": 3540,
+        "wires": []
+    },
+    {
+        "id": "a3ab30fa7ad45b5c",
+        "type": "link out",
+        "z": "dbbc30b9f0aa1118",
+        "g": "86f881d7c126268e",
+        "name": "DB_CH0_tripslog",
+        "mode": "link",
+        "links": [
+            "d7b9dfdab4346d65"
+        ],
+        "x": 705,
+        "y": 3760,
+        "wires": []
+    },
+    {
+        "id": "34782ac2922a3a25",
+        "type": "link out",
+        "z": "dbbc30b9f0aa1118",
+        "g": "74ca9bc4bf0ed5bf",
+        "name": "DB_CH1_tripslog",
+        "mode": "link",
+        "links": [
+            "a49a8996f9c84483"
+        ],
+        "x": 1985,
+        "y": 3760,
+        "wires": []
+    },
+    {
+        "id": "c86ffd748ddfc8ff",
+        "type": "link out",
+        "z": "dbbc30b9f0aa1118",
+        "g": "1855c17bf2cf4856",
+        "name": "DB_CH2_tripslog",
+        "mode": "link",
+        "links": [
+            "cfc18ee593d9806c"
+        ],
+        "x": 3165,
+        "y": 3760,
+        "wires": []
+    },
+    {
+        "id": "7d4720bdb8eedda4",
+        "type": "link out",
+        "z": "dbbc30b9f0aa1118",
+        "g": "a2b1c08b9d25be5b",
+        "name": "DB_CH3_tripslog",
+        "mode": "link",
+        "links": [
+            "95e1b2ad63d483c1"
+        ],
+        "x": 4415,
+        "y": 3780,
         "wires": []
     },
     {
@@ -50425,7 +50638,7 @@
         "z": "ac988ebf643b965c",
         "g": "9a5715b539c43b53",
         "name": "debug 20",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -50556,9 +50769,7 @@
         "x": 110,
         "y": 280,
         "wires": [
-            [
-                "d1b3f40ac139b011"
-            ]
+            []
         ],
         "info": "Only enable this node when you want to inject a **new table** in the database. Link the node to the new _Create Table <X>_ node.  \n\nFor security, after create the table, delete all links and disable the node. "
     },
@@ -50612,7 +50823,7 @@
         "rowsPerMsg": 1,
         "outputs": 1,
         "x": 490,
-        "y": 660,
+        "y": 640,
         "wires": [
             [
                 "bafb614786782f29"
@@ -53311,6 +53522,7 @@
         "g": "a4c6381da6e0a25c",
         "name": "DB_HVPS_Ch1_Vmon",
         "links": [
+            "2ba83a61dbc39abf",
             "6a3903daef6195fc"
         ],
         "x": 1245,
@@ -53328,8 +53540,8 @@
         "g": "a4c6381da6e0a25c",
         "name": "DB_HVPS_Ch1_Imon",
         "links": [
-            "022251598872c5cf",
-            "08b9128e57c6bf35"
+            "08b9128e57c6bf35",
+            "943558eb7f136f4e"
         ],
         "x": 1245,
         "y": 1040,
@@ -53346,8 +53558,8 @@
         "g": "a4c6381da6e0a25c",
         "name": "DB_HVPS_Ch0_Vmon",
         "links": [
-            "3ffada1a08a3cc3b",
-            "c1152e5f9e3bbe02"
+            "c1152e5f9e3bbe02",
+            "e726d2a9f8e36e10"
         ],
         "x": 1245,
         "y": 1120,
@@ -53364,8 +53576,7 @@
         "g": "a4c6381da6e0a25c",
         "name": "DB_HVPS_Ch1_Vset",
         "links": [
-            "e8c07254d79f9c9f",
-            "6f0192f894edaacb",
+            "3b2de8b6721eb445",
             "f635fb547ed61d67"
         ],
         "x": 1245,
@@ -53383,7 +53594,7 @@
         "g": "a4c6381da6e0a25c",
         "name": "DB_HVPS_Ch0_Imon",
         "links": [
-            "39dabc217aeea0d2",
+            "0e07ab72b9c9feeb",
             "7e42419f80f0d044"
         ],
         "x": 1245,
@@ -53401,9 +53612,7 @@
         "g": "a4c6381da6e0a25c",
         "name": "DB_HVPS_Ch0_Vset",
         "links": [
-            "fbf54ef3fcc098d8",
-            "e8c07254d79f9c9f",
-            "6f0192f894edaacb",
+            "071c17820e88c0a3",
             "5204f2d0fd778fbe"
         ],
         "x": 1245,
@@ -53421,8 +53630,7 @@
         "g": "a4c6381da6e0a25c",
         "name": "DB_HVPS_IDN",
         "links": [
-            "044126b626f1e11f",
-            "52699760c78054c1",
+            "2e3b04096c8c94fd",
             "eb83a7047700371e"
         ],
         "x": 1245,
@@ -53551,8 +53759,8 @@
         "split": false,
         "rowsPerMsg": 1,
         "outputs": 1,
-        "x": 1960,
-        "y": 1320,
+        "x": 1980,
+        "y": 1240,
         "wires": [
             []
         ]
@@ -53564,11 +53772,11 @@
         "g": "eca5bb2e0e780868",
         "name": "DB_CH0_tripslog",
         "links": [
-            "260cdde94195d53f",
+            "a3ab30fa7ad45b5c",
             "e6570e1b990850bb"
         ],
-        "x": 1785,
-        "y": 1320,
+        "x": 1805,
+        "y": 1240,
         "wires": [
             [
                 "0d6298c0274aaf27"
@@ -53582,11 +53790,11 @@
         "g": "eca5bb2e0e780868",
         "name": "DB_CH1_tripslog",
         "links": [
-            "deeb14e66bd47f64",
+            "34782ac2922a3a25",
             "b8e4b91a4251a44e"
         ],
-        "x": 1785,
-        "y": 1380,
+        "x": 1805,
+        "y": 1300,
         "wires": [
             [
                 "36d3b29d534ee056"
@@ -53604,8 +53812,8 @@
         "split": false,
         "rowsPerMsg": 1,
         "outputs": 1,
-        "x": 1960,
-        "y": 1380,
+        "x": 1980,
+        "y": 1300,
         "wires": [
             []
         ]
@@ -53793,6 +54001,620 @@
             [
                 "dbab5c051d78f499"
             ]
+        ]
+    },
+    {
+        "id": "01ea21af7f1c937b",
+        "type": "postgresql",
+        "z": "ac988ebf643b965c",
+        "g": "9a5715b539c43b53",
+        "name": "Create Table CAEN Channels 2, 3",
+        "query": "CREATE TABLE hv2_ps (\n    ID SERIAL PRIMARY KEY,\n    timestamp TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,\n    Module_model TEXT,\n    Ch3_Vmon FLOAT,\n    Ch3_Imon FLOAT,\n    Ch3_Vset FLOAT,\n    Ch2_Vmon FLOAT,\n    Ch2_Imon FLOAT,\n    Ch2_Vset FLOAT\n);",
+        "postgreSQLConfig": "4b3ae4eeb8191fd4",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 500,
+        "y": 680,
+        "wires": [
+            [
+                "bafb614786782f29"
+            ]
+        ]
+    },
+    {
+        "id": "3d40ce8f8d239f2c",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "Set Ch3_Vmon",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Ch3_Vmon",
+                "tot": "str"
+            }
+        ],
+        "x": 2680,
+        "y": 1000,
+        "wires": [
+            [
+                "e9e9fee8a38c7532",
+                "e946bd96d43d9fd0"
+            ]
+        ]
+    },
+    {
+        "id": "8b66b1d978b66a77",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "Set Ch3_Imon",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Ch3_Imon",
+                "tot": "str"
+            }
+        ],
+        "x": 2680,
+        "y": 1040,
+        "wires": [
+            [
+                "e9e9fee8a38c7532"
+            ]
+        ]
+    },
+    {
+        "id": "e9e9fee8a38c7532",
+        "type": "join",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "7",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 2890,
+        "y": 1060,
+        "wires": [
+            [
+                "fecf9b1bb8dd2489"
+            ]
+        ]
+    },
+    {
+        "id": "fd7f58210ef6f243",
+        "type": "inject",
+        "z": "ac988ebf643b965c",
+        "d": true,
+        "g": "28a72e9bbd5bdfcc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "hv_ps",
+        "payloadType": "str",
+        "x": 2480,
+        "y": 1300,
+        "wires": [
+            [
+                "3fa563c74c35a2de"
+            ]
+        ]
+    },
+    {
+        "id": "3fa563c74c35a2de",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "d": true,
+        "g": "28a72e9bbd5bdfcc",
+        "name": "Set TableName",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "TableName",
+                "tot": "str"
+            }
+        ],
+        "x": 2660,
+        "y": 1300,
+        "wires": [
+            [
+                "e9e9fee8a38c7532"
+            ]
+        ]
+    },
+    {
+        "id": "c01304e5cc311d19",
+        "type": "subflow:25852162ecd9b7ac",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "",
+        "x": 2480,
+        "y": 1000,
+        "wires": [
+            [
+                "3d40ce8f8d239f2c"
+            ]
+        ]
+    },
+    {
+        "id": "8c7510ee56be8804",
+        "type": "subflow:25852162ecd9b7ac",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "",
+        "x": 2480,
+        "y": 1040,
+        "wires": [
+            [
+                "8b66b1d978b66a77"
+            ]
+        ]
+    },
+    {
+        "id": "55cb6002112629f3",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "Set Ch3_Vset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Ch3_Vset",
+                "tot": "str"
+            }
+        ],
+        "x": 2680,
+        "y": 1080,
+        "wires": [
+            [
+                "e9e9fee8a38c7532"
+            ]
+        ]
+    },
+    {
+        "id": "23d19ed63cf64d37",
+        "type": "subflow:25852162ecd9b7ac",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "",
+        "x": 2480,
+        "y": 1080,
+        "wires": [
+            [
+                "55cb6002112629f3"
+            ]
+        ]
+    },
+    {
+        "id": "3f37e2058279ca60",
+        "type": "subflow:25852162ecd9b7ac",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "",
+        "x": 2480,
+        "y": 1120,
+        "wires": [
+            [
+                "23491436703c1928"
+            ]
+        ]
+    },
+    {
+        "id": "23491436703c1928",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "Set Ch2_Vmon",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Ch2_Vmon",
+                "tot": "str"
+            }
+        ],
+        "x": 2680,
+        "y": 1120,
+        "wires": [
+            [
+                "e9e9fee8a38c7532"
+            ]
+        ]
+    },
+    {
+        "id": "b0442c9ede1b293b",
+        "type": "link in",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "DB_HVPS_Ch3_Vmon",
+        "links": [
+            "8897866f15cf7622"
+        ],
+        "x": 2385,
+        "y": 1000,
+        "wires": [
+            [
+                "c01304e5cc311d19"
+            ]
+        ]
+    },
+    {
+        "id": "3adbd6880d20d0b8",
+        "type": "link in",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "DB_HVPS_Ch3_Imon",
+        "links": [
+            "320eed22162215e7"
+        ],
+        "x": 2385,
+        "y": 1040,
+        "wires": [
+            [
+                "8c7510ee56be8804"
+            ]
+        ]
+    },
+    {
+        "id": "aaf76430b78f738e",
+        "type": "link in",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "DB_HVPS_Ch2_Vmon",
+        "links": [
+            "a9860443072eed66"
+        ],
+        "x": 2385,
+        "y": 1120,
+        "wires": [
+            [
+                "3f37e2058279ca60"
+            ]
+        ]
+    },
+    {
+        "id": "17fb53ca7796f539",
+        "type": "link in",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "DB_HVPS_Ch3_Vset",
+        "links": [
+            "ee55a3df05588eb5"
+        ],
+        "x": 2385,
+        "y": 1080,
+        "wires": [
+            [
+                "23d19ed63cf64d37"
+            ]
+        ]
+    },
+    {
+        "id": "6e78b5284c7965d5",
+        "type": "link in",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "DB_HVPS_Ch0_Imon",
+        "links": [
+            "886b085dfd4a7fc8"
+        ],
+        "x": 2385,
+        "y": 1160,
+        "wires": [
+            [
+                "cc3da5758b5a6983"
+            ]
+        ]
+    },
+    {
+        "id": "9e9269c9e1ee7b4f",
+        "type": "link in",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "DB_HVPS_Ch2_Vset",
+        "links": [
+            "74d277123cdbb076"
+        ],
+        "x": 2385,
+        "y": 1200,
+        "wires": [
+            [
+                "23b19d9ae1b16d12"
+            ]
+        ]
+    },
+    {
+        "id": "de807af5a3524e80",
+        "type": "link in",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "DB_HVPS_IDN",
+        "links": [
+            "2e3b04096c8c94fd"
+        ],
+        "x": 2385,
+        "y": 1240,
+        "wires": [
+            [
+                "f5be0a06ff0e56fb"
+            ]
+        ]
+    },
+    {
+        "id": "cc3da5758b5a6983",
+        "type": "subflow:25852162ecd9b7ac",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "",
+        "x": 2480,
+        "y": 1160,
+        "wires": [
+            [
+                "1776a26308f3d65a"
+            ]
+        ]
+    },
+    {
+        "id": "1776a26308f3d65a",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "Set Ch2_Imon",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Ch2_Imon",
+                "tot": "str"
+            }
+        ],
+        "x": 2680,
+        "y": 1160,
+        "wires": [
+            [
+                "e9e9fee8a38c7532"
+            ]
+        ]
+    },
+    {
+        "id": "23b19d9ae1b16d12",
+        "type": "subflow:25852162ecd9b7ac",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "",
+        "x": 2480,
+        "y": 1200,
+        "wires": [
+            [
+                "028a9539041ca31c"
+            ]
+        ]
+    },
+    {
+        "id": "028a9539041ca31c",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "Set Ch2_Vset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Ch2_Vset",
+                "tot": "str"
+            }
+        ],
+        "x": 2680,
+        "y": 1200,
+        "wires": [
+            [
+                "e9e9fee8a38c7532"
+            ]
+        ]
+    },
+    {
+        "id": "f5be0a06ff0e56fb",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "Set IDN",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "IDN",
+                "tot": "str"
+            }
+        ],
+        "x": 2660,
+        "y": 1240,
+        "wires": [
+            [
+                "e9e9fee8a38c7532"
+            ]
+        ]
+    },
+    {
+        "id": "e946bd96d43d9fd0",
+        "type": "debug",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2880,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "fecf9b1bb8dd2489",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "Set TableName",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.TableName",
+                "pt": "msg",
+                "to": "hv2_ps",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3060,
+        "y": 1060,
+        "wires": [
+            [
+                "90ffcaa9aea8b1ab"
+            ]
+        ]
+    },
+    {
+        "id": "5000ce269b79c969",
+        "type": "postgresql",
+        "z": "ac988ebf643b965c",
+        "g": "597af81b8971f4e3",
+        "name": "CH2_Insert_trip",
+        "query": "INSERT INTO Trips_logs (channel)\nVALUES (2);",
+        "postgreSQLConfig": "4b3ae4eeb8191fd4",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 3120,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cfc18ee593d9806c",
+        "type": "link in",
+        "z": "ac988ebf643b965c",
+        "g": "597af81b8971f4e3",
+        "name": "DB_CH0_tripslog",
+        "links": [
+            "c86ffd748ddfc8ff"
+        ],
+        "x": 2945,
+        "y": 1240,
+        "wires": [
+            [
+                "5000ce269b79c969"
+            ]
+        ]
+    },
+    {
+        "id": "95e1b2ad63d483c1",
+        "type": "link in",
+        "z": "ac988ebf643b965c",
+        "g": "597af81b8971f4e3",
+        "name": "DB_CH1_tripslog",
+        "links": [
+            "7d4720bdb8eedda4"
+        ],
+        "x": 2945,
+        "y": 1300,
+        "wires": [
+            [
+                "87b7022ad923b86f"
+            ]
+        ]
+    },
+    {
+        "id": "87b7022ad923b86f",
+        "type": "postgresql",
+        "z": "ac988ebf643b965c",
+        "g": "597af81b8971f4e3",
+        "name": "CH3_Insert_trip",
+        "query": "INSERT INTO Trips_logs (channel)\nVALUES (3);",
+        "postgreSQLConfig": "4b3ae4eeb8191fd4",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 3120,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "90ffcaa9aea8b1ab",
+        "type": "function",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "Create JSON Object",
+        "func": "let Ch3_Vmon = msg.payload.Ch3_Vmon;\nlet Ch3_Vset = msg.payload.Ch3_Vset;\nlet Ch3_Imon = msg.payload.Ch3_Imon;\nlet IDN = msg.payload.IDN;\nlet Ch2_Vmon = msg.payload.Ch2_Vmon;\nlet Ch2_Vset = msg.payload.Ch2_Vset;\nlet Ch2_Imon = msg.payload.Ch2_Imon;\nlet TableName = msg.payload.TableName;\n\nlet query = `\n    INSERT INTO ${TableName} (module_model, ch3_vmon, ch3_imon, ch3_vset, ch2_vmon, ch2_imon, ch2_vset)\n    VALUES ('${IDN}', ${Ch3_Vmon}, ${Ch3_Imon}, ${Ch3_Vset}, ${Ch2_Vmon}, ${Ch2_Imon},  ${Ch2_Vset});\n`;\n\nmsg.topic = query;\nreturn {payload: query};\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3260,
+        "y": 1060,
+        "wires": [
+            [
+                "3e338fa980e62bd8"
+            ]
+        ]
+    },
+    {
+        "id": "3e338fa980e62bd8",
+        "type": "postgresql",
+        "z": "ac988ebf643b965c",
+        "g": "28a72e9bbd5bdfcc",
+        "name": "",
+        "query": "{{{msg.payload}}}",
+        "postgreSQLConfig": "4b3ae4eeb8191fd4",
+        "split": false,
+        "rowsPerMsg": "",
+        "outputs": 1,
+        "x": 3450,
+        "y": 1060,
+        "wires": [
+            []
         ]
     },
     {
