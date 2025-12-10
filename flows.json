@@ -1404,7 +1404,9 @@
             "3acc33c5b47dc382"
         ],
         "x": 48,
-        "y": 33
+        "y": 33,
+        "w": 1084,
+        "h": 974
     },
     {
         "id": "9295061656b66ea5",
@@ -1446,6 +1448,8 @@
         ],
         "x": 34,
         "y": 1099,
+        "w": 1062,
+        "h": 602,
         "info": "BG0I >> register 0 of BGA, for controlling good communitacion\nXALL >> Measure Ratio 1, Ratio 2, Temp, Press, Norm Speed of Sound, Block Temp\nRATO? 1% >> Measure Ratio Gas 1 in %\nRATO? 2% >> Measure Ratio Gas 2 in %\nUNCT?% "
     },
     {
@@ -1462,7 +1466,9 @@
             "72c48db6f9d759e7"
         ],
         "x": 1162,
-        "y": 27
+        "y": 27,
+        "w": 1616,
+        "h": 1906
     },
     {
         "id": "992c7241633688d0",
@@ -1794,8 +1800,8 @@
             "024b1ff0d66c7dd1"
         ],
         "x": 134,
-        "y": 539,
-        "w": 792,
+        "y": 559,
+        "w": 772,
         "h": 82
     },
     {
@@ -1824,7 +1830,7 @@
             "894aec7d76098a24"
         ],
         "x": 94,
-        "y": -1,
+        "y": 19,
         "w": 1392,
         "h": 302
     },
@@ -1849,7 +1855,7 @@
         ],
         "x": 14,
         "y": 779,
-        "w": 832,
+        "w": 812,
         "h": 182
     },
     {
@@ -1996,7 +2002,7 @@
             "2c0605f7e1aae3d8"
         ],
         "x": 114,
-        "y": 319,
+        "y": 339,
         "w": 1232,
         "h": 182
     },
@@ -2054,7 +2060,7 @@
         ],
         "x": 1474,
         "y": 819,
-        "w": 832,
+        "w": 812,
         "h": 182
     },
     {
@@ -2238,7 +2244,7 @@
         ],
         "x": 2654,
         "y": 819,
-        "w": 832,
+        "w": 812,
         "h": 182
     },
     {
@@ -2262,7 +2268,7 @@
         ],
         "x": 3774,
         "y": 799,
-        "w": 832,
+        "w": 812,
         "h": 182
     },
     {
@@ -2845,7 +2851,9 @@
             "4d76f8c8d06a7a0c"
         ],
         "x": 1188,
-        "y": 53
+        "y": 53,
+        "w": 1254,
+        "h": 594
     },
     {
         "id": "e203553cd5a0ee80",
@@ -2871,7 +2879,9 @@
             "644087566c39f480"
         ],
         "x": 1188,
-        "y": 653
+        "y": 653,
+        "w": 1234,
+        "h": 614
     },
     {
         "id": "5a285b3030b3bd4a",
@@ -2897,7 +2907,9 @@
             "593ba01e49927b37"
         ],
         "x": 1188,
-        "y": 1293
+        "y": 1293,
+        "w": 1564,
+        "h": 614
     },
     {
         "id": "1f49102a5e8fad89",
@@ -2924,7 +2936,9 @@
             "2079b96e7e73a618"
         ],
         "x": 94,
-        "y": 739
+        "y": 739,
+        "w": 792,
+        "h": 242
     },
     {
         "id": "7e4bb344517985e5",
@@ -2950,7 +2964,9 @@
             "6753b27f4563eda6"
         ],
         "x": 134,
-        "y": 499
+        "y": 499,
+        "w": 732,
+        "h": 242
     },
     {
         "id": "529336f40909be79",
@@ -2968,7 +2984,9 @@
             "9dc1061d6dd65199"
         ],
         "x": 94,
-        "y": 59
+        "y": 59,
+        "w": 572,
+        "h": 82
     },
     {
         "id": "bc7b6751d9375792",
@@ -2984,7 +3002,9 @@
             "3fa51c933a671b6a"
         ],
         "x": 694,
-        "y": 59
+        "y": 59,
+        "w": 332,
+        "h": 82
     },
     {
         "id": "c670467e9fd50149",
@@ -3003,7 +3023,9 @@
             "3fd4af840aa8bbd2"
         ],
         "x": 74,
-        "y": 399
+        "y": 399,
+        "w": 832,
+        "h": 82
     },
     {
         "id": "3acc33c5b47dc382",
@@ -3032,6 +3054,8 @@
         ],
         "x": 94,
         "y": 159,
+        "w": 1012,
+        "h": 222,
         "info": "PSRU 3,0 >> Select the User Pressure Mode (3) & Absolute Units (0)\nPUSR 1.12bar >> Select the User Pressure in bar\nPUSR? bar >> Query the User pressure in bar"
     },
     {
@@ -3677,7 +3701,7 @@
         "type": "group",
         "z": "dbbc30b9f0aa1118",
         "g": "4bb98bb9b4dea328",
-        "name": "IMRANGE Ch1 (Manual Setting)",
+        "name": "IMRANGE Ch2 (Manual Setting)",
         "style": {
             "label": true
         },
@@ -3708,7 +3732,7 @@
         "type": "group",
         "z": "dbbc30b9f0aa1118",
         "g": "e95941fab369c9ba",
-        "name": "IMRANGE Ch1 (Manual Setting)",
+        "name": "IMRANGE Ch3 (Manual Setting)",
         "style": {
             "label": true
         },
@@ -3977,7 +4001,9 @@
             "2ba3e0fb3ef09c52"
         ],
         "x": 1214,
-        "y": 379
+        "y": 379,
+        "w": 1202,
+        "h": 242
     },
     {
         "id": "4d76f8c8d06a7a0c",
@@ -4005,7 +4031,9 @@
             "7589ea95bda06bb5"
         ],
         "x": 1214,
-        "y": 79
+        "y": 79,
+        "w": 1072,
+        "h": 142
     },
     {
         "id": "917d1a7bd60bfba9",
@@ -4040,7 +4068,9 @@
             "663e2e77775744d7"
         ],
         "x": 1214,
-        "y": 999
+        "y": 999,
+        "w": 1182,
+        "h": 242
     },
     {
         "id": "644087566c39f480",
@@ -4068,7 +4098,9 @@
             "9de6b49006e13111"
         ],
         "x": 1234,
-        "y": 679
+        "y": 679,
+        "w": 1072,
+        "h": 142
     },
     {
         "id": "6be84011dbef5d01",
@@ -4107,7 +4139,9 @@
             "1ef9fe24ae02d8c7"
         ],
         "x": 1214,
-        "y": 1619
+        "y": 1619,
+        "w": 1512,
+        "h": 262
     },
     {
         "id": "593ba01e49927b37",
@@ -4135,7 +4169,9 @@
             "80dcc35b731b03e5"
         ],
         "x": 1214,
-        "y": 1319
+        "y": 1319,
+        "w": 1092,
+        "h": 142
     },
     {
         "id": "28a72e9bbd5bdfcc",
@@ -4218,6 +4254,29 @@
         "y": 859,
         "w": 322,
         "h": 122
+    },
+    {
+        "id": "41ab4a586d5ad4f8",
+        "type": "group",
+        "z": "6e1018113dcdaef8",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6e52c711fdbcafa2",
+            "8693e48fa734f2c5",
+            "2a45d2f109ece4f5",
+            "e6e174e692fdacc8",
+            "d45ef1794e4d4650",
+            "65a3f6314e65cec1",
+            "2e3f9d0f78e394cb",
+            "b0edb31a8d317a75"
+        ],
+        "x": 1934,
+        "y": 96.5,
+        "w": 942,
+        "h": 244.5
     },
     {
         "id": "67018f7a.7112a8",
@@ -5542,7 +5601,7 @@
     {
         "id": "dee14e35813c977a",
         "type": "serial-port",
-        "serialport": "/dev/D1_CT_HV_temp",
+        "serialport": "/dev/ID1_CT_HV",
         "serialbaud": "9600",
         "databits": "8",
         "parity": "none",
@@ -5605,22 +5664,22 @@
     {
         "id": "35c5aed8b0631863",
         "type": "ui_group",
-        "name": "Channel 2",
+        "name": "Channel 2 (Top)",
         "tab": "d1f86556db3eb3fa",
         "order": 5,
         "disp": true,
-        "width": 6,
+        "width": "6",
         "collapse": false,
         "className": ""
     },
     {
         "id": "75c0e81dd2e2627b",
         "type": "ui_group",
-        "name": "Channel 3",
+        "name": "Channel 3 (Bottom)",
         "tab": "d1f86556db3eb3fa",
         "order": 6,
         "disp": true,
-        "width": 6,
+        "width": "6",
         "collapse": false,
         "className": ""
     },
@@ -8026,6 +8085,7 @@
         "id": "6e52c711fdbcafa2",
         "type": "link in",
         "z": "6e1018113dcdaef8",
+        "g": "41ab4a586d5ad4f8",
         "name": "BK-Inlet Meas Sink",
         "links": [
             "6baa34f3f8e560f3"
@@ -8042,6 +8102,7 @@
         "id": "8693e48fa734f2c5",
         "type": "function",
         "z": "6e1018113dcdaef8",
+        "g": "41ab4a586d5ad4f8",
         "name": "",
         "func": "var msg1;\nvar msg2;\nvar msg3;\nvar msg4;\nvar msg5;\n\nvar localcnt0 = flow.get('localcnt0');\nif (!localcnt0) {\n    localcnt0 = 0;\n    flow.set('localcnt0', 0);\n}\n\nvar modeop = flow.get('modeop');\nif (!modeop) {\n    modeop = false;\n}\n\nvar ch0ret = global.get('ch0ret');\nif (!ch0ret) {\n    ch0ret = 0;\n}\n\nvar cnt = parseInt(msg.payload);\nvar msage = \"HV PS ALARM: CH0 Trip Alarm at IAXO D1!! Cnt is \" + cnt.toString()\nvar msageend = \"HV PS ALARM: CH0 Trip Alarm at IAXO D1!! Cnt reached the stop condition after \" + cnt.toString() + \" iterations... Stopping on the next trip!!\"\nvar msageoff = \"HV PS ALARM: CATHODE Trip Alarm at IAXO D1!! Ch0 is now off and autorecovery disabled after \" + cnt.toString() + \" trips!!\"\n\nvar mensTrue = {\n        channel: \"#iaxo_d1_slow_control_alarms\",\n        text: msage\n}\n\nvar mensEnd = {\n        channel: \"#iaxo_d1_slow_control_alarms\",\n        text: msageend\n}\n\nvar mensFalse = {\n        channel: \"#void\",\n        text: \"void\"\n}\n\nvar mensOff = {\n        channel: \"#axo_d1_slow_control_alarms\",\n        text: msageoff\n}\n\n\n\nvar topic = \"chat.postMessage\";\n\nif(cnt == 0){\n    msg2 = {\n    payload: false\n    }\n    msg3 ={\n    payload: false\n    }    \n} else if(cnt < ch0ret){\n    if (localcnt0 != cnt){\n            msg1 = {\n                topic: topic,\n                payload: mensTrue\n            }\n            localcnt0 = cnt;\n            flow.set('localcnt0', localcnt0);\n    }\n\n    msg2 = {\n    payload: true\n    }\n    msg3 ={\n    payload: false\n    }\n}else if(cnt == ch0ret){\n    if (localcnt0 != cnt){\n            msg1 = {\n                topic: topic,\n                payload: mensEnd\n            }\n            localcnt0 = cnt;\n            flow.set('localcnt0', localcnt0);\n    }    \n    msg2 = {\n    payload: true\n    }\n    msg3 ={\n    payload: false\n    }  \n}else if(cnt == (ch0ret + 1)){\n    if (localcnt0 != cnt){\n            msg1 = {\n                topic: topic,\n                payload: msageoff\n            }\n            localcnt0 = cnt;\n            flow.set('localcnt0', localcnt0);\n    }    \n    msg2 = {\n    payload: true\n    }\n    msg3 ={\n    payload: true\n    }        \n}\n\n\n    msg4 ={\n    payload: cnt\n    }    \n    \n    msg5 ={\n    payload: ch0ret\n    }    \n\nreturn [msg1, msg2, msg3, msg4, msg5];\n\n\n",
         "outputs": 5,
@@ -8067,6 +8128,8 @@
         "id": "2a45d2f109ece4f5",
         "type": "ui_led",
         "z": "6e1018113dcdaef8",
+        "d": true,
+        "g": "41ab4a586d5ad4f8",
         "order": 2,
         "group": "2f4397f228cb63a5",
         "width": 0,
@@ -8098,6 +8161,8 @@
         "id": "e6e174e692fdacc8",
         "type": "ui_led",
         "z": "6e1018113dcdaef8",
+        "d": true,
+        "g": "41ab4a586d5ad4f8",
         "order": 1,
         "group": "2f4397f228cb63a5",
         "width": 0,
@@ -8129,6 +8194,7 @@
         "id": "d45ef1794e4d4650",
         "type": "link in",
         "z": "6e1018113dcdaef8",
+        "g": "41ab4a586d5ad4f8",
         "name": "BK-Inlet Meas Sink",
         "links": [
             "acbb0d70c25c9540"
@@ -8145,6 +8211,7 @@
         "id": "65a3f6314e65cec1",
         "type": "function",
         "z": "6e1018113dcdaef8",
+        "g": "41ab4a586d5ad4f8",
         "name": "",
         "func": "var msg1;\nvar msg2;\nvar msg3;\nvar msg4;\nvar msg5;\n\nvar localcnt1 = flow.get('localcnt1');\nif (!localcnt1) {\n    localcnt1 = 0;\n    flow.set('localcnt1', 0);\n}\n\nvar modeop = flow.get('modeop');\nif (!modeop) {\n    modeop = false;\n}\n\nvar ch1ret = global.get('ch1ret');\nif (!ch1ret) {\n    ch1ret = 0;\n}\n\nvar cnt = parseInt(msg.payload);\nvar msage = \"HV PS ALARM: Ch1 Trip Alarm at IAXO D1!! Cnt is \" + cnt.toString()\nvar msageend = \"HV PS ALARM: MESH Trip Alarm at IAXO D1!! Cnt reached the stop condition after \" + cnt.toString() + \" iterations... Stopping on the next trip!!\"\nvar msageoff = \"HV PS ALARM: MESH Trip Alarm at IAXO D1!! Ch1 is now off and autorecovery disabled after \" + cnt.toString() + \" trips!!\"\n\nvar mensTrue = {\n        channel: \"#iaxo_d1_slow_control_alarms\",\n        text: msage\n}\n\nvar mensEnd = {\n        channel: \"#iaxo_d1_slow_control_alarms\",\n        text: msageend\n}\n\nvar mensFalse = {\n        channel: \"#void\",\n        text: \"void\"\n}\n\nvar mensOff = {\n        channel: \"##iaxo_d1_slow_control_alarms\",\n        text: msageoff\n}\n\nvar topic = \"chat.postMessage\";\n\nif(cnt == 0){\n    msg2 = {\n    payload: false\n    }\n    msg3 ={\n    payload: false\n    }    \n} else if(cnt < ch1ret){\n    if (localcnt1 != cnt){\n            msg1 = {\n                topic: topic,\n                payload: mensTrue\n            }\n            localcnt1 = cnt;\n            flow.set('localcnt1', localcnt1);\n    }\n\n    msg2 = {\n    payload: true\n    }\n    msg3 ={\n    payload: false\n    }\n}else if(cnt == ch1ret){\n    if (localcnt1 != cnt){\n            msg1 = {\n                topic: topic,\n                payload: mensEnd\n            }\n            localcnt1 = cnt;\n            flow.set('localcnt1', localcnt1);\n    }    \n    msg2 = {\n    payload: true\n    }\n    msg3 ={\n    payload: false\n    }   \n}else if(cnt == (ch1ret + 1)){\n    if (localcnt1 != cnt){\n            msg1 = {\n                topic: topic,\n                payload: msageoff\n            }\n            localcnt1 = cnt;\n            flow.set('localcnt1', localcnt1);\n    }    \n    msg2 = {\n    payload: true\n    }\n    msg3 ={\n    payload: true\n    }      \n}\n\n\n    msg4 ={\n    payload: cnt\n    }    \n    \n    msg5 ={\n    payload: ch1ret\n    }    \n\nreturn [msg1, msg2, msg3, msg4, msg5];\n\n\n",
         "outputs": 3,
@@ -8170,6 +8237,8 @@
         "id": "2e3f9d0f78e394cb",
         "type": "ui_led",
         "z": "6e1018113dcdaef8",
+        "d": true,
+        "g": "41ab4a586d5ad4f8",
         "order": 4,
         "group": "2f4397f228cb63a5",
         "width": 0,
@@ -8201,6 +8270,8 @@
         "id": "b0edb31a8d317a75",
         "type": "ui_led",
         "z": "6e1018113dcdaef8",
+        "d": true,
+        "g": "41ab4a586d5ad4f8",
         "order": 3,
         "group": "2f4397f228cb63a5",
         "width": 0,
@@ -19639,7 +19710,7 @@
         "name": "CAEN Listener",
         "serial": "dee14e35813c977a",
         "x": 200,
-        "y": 40,
+        "y": 60,
         "wires": [
             [
                 "e25a4c8d95903888",
@@ -19666,7 +19737,7 @@
         "fontSize": "",
         "color": "#000000",
         "x": 380,
-        "y": 40,
+        "y": 60,
         "wires": []
     },
     {
@@ -19817,7 +19888,7 @@
         "g": "702687925deb0843",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 700,
+        "x": 690,
         "y": 920,
         "wires": [
             []
@@ -19830,7 +19901,7 @@
         "g": "47cd93d9e02b875f",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 800,
+        "x": 790,
         "y": 1240,
         "wires": [
             [
@@ -19845,7 +19916,7 @@
         "g": "47cd93d9e02b875f",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 820,
+        "x": 810,
         "y": 1060,
         "wires": [
             [
@@ -19860,7 +19931,7 @@
         "g": "47cd93d9e02b875f",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 820,
+        "x": 810,
         "y": 1620,
         "wires": [
             [
@@ -19922,7 +19993,7 @@
         "g": "47cd93d9e02b875f",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 800,
+        "x": 790,
         "y": 1840,
         "wires": [
             [
@@ -19998,7 +20069,7 @@
             "7d470661ab31e5c7"
         ],
         "x": 650,
-        "y": 40,
+        "y": 60,
         "wires": [
             [
                 "3e80353df86b27de",
@@ -20020,7 +20091,7 @@
         "finalize": "",
         "libs": [],
         "x": 860,
-        "y": 40,
+        "y": 60,
         "wires": [
             [
                 "894aec7d76098a24"
@@ -20034,7 +20105,7 @@
         "g": "b7d565f8c1d444b8",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 520,
+        "x": 510,
         "y": 2600,
         "wires": [
             [
@@ -20121,7 +20192,7 @@
         "g": "b7d565f8c1d444b8",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 720,
+        "x": 710,
         "y": 2260,
         "wires": [
             [
@@ -20222,7 +20293,7 @@
         "g": "b7d565f8c1d444b8",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 690,
+        "x": 680,
         "y": 2420,
         "wires": [
             [
@@ -20309,8 +20380,8 @@
         "g": "734a5d56201614fe",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 800,
-        "y": 420,
+        "x": 790,
+        "y": 440,
         "wires": [
             [
                 "3a93138d2ac3a9f2"
@@ -20330,7 +20401,7 @@
         "finalize": "",
         "libs": [],
         "x": 360,
-        "y": 420,
+        "y": 440,
         "wires": [
             [
                 "39b8289e11b02f99"
@@ -20352,7 +20423,7 @@
         "layout": "col-center",
         "className": "",
         "x": 1240,
-        "y": 460,
+        "y": 480,
         "wires": []
     },
     {
@@ -20378,7 +20449,7 @@
         "payload": "::",
         "payloadType": "str",
         "x": 210,
-        "y": 360,
+        "y": 380,
         "wires": [
             [
                 "3a46fff74ab15730"
@@ -20397,7 +20468,7 @@
             "de807af5a3524e80"
         ],
         "x": 1155,
-        "y": 420,
+        "y": 440,
         "wires": []
     },
     {
@@ -20419,7 +20490,7 @@
         "fontSize": "",
         "color": "#000000",
         "x": 870,
-        "y": 100,
+        "y": 120,
         "wires": []
     },
     {
@@ -20429,7 +20500,7 @@
         "g": "47cd93d9e02b875f",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 660,
+        "x": 650,
         "y": 1320,
         "wires": [
             [
@@ -20516,7 +20587,7 @@
         "g": "47cd93d9e02b875f",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 720,
+        "x": 710,
         "y": 1140,
         "wires": [
             [
@@ -20617,7 +20688,7 @@
         "g": "47cd93d9e02b875f",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 700,
+        "x": 690,
         "y": 1720,
         "wires": [
             [
@@ -20704,7 +20775,7 @@
         "g": "47cd93d9e02b875f",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 600,
+        "x": 590,
         "y": 1960,
         "wires": [
             [
@@ -20808,7 +20879,7 @@
         "repair": false,
         "outputs": 2,
         "x": 860,
-        "y": 200,
+        "y": 220,
         "wires": [
             [
                 "b827a006e3af01cc"
@@ -20840,7 +20911,7 @@
         "to": "",
         "reg": false,
         "x": 1340,
-        "y": 140,
+        "y": 160,
         "wires": [
             []
         ]
@@ -20866,7 +20937,7 @@
         "to": "",
         "reg": false,
         "x": 1220,
-        "y": 220,
+        "y": 240,
         "wires": [
             []
         ]
@@ -20886,7 +20957,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1030,
-        "y": 260,
+        "y": 280,
         "wires": []
     },
     {
@@ -20908,7 +20979,7 @@
         "repair": false,
         "outputs": 1,
         "x": 925,
-        "y": 420,
+        "y": 440,
         "wires": [
             [
                 "2c0605f7e1aae3d8"
@@ -21232,7 +21303,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1030,
-        "y": 140,
+        "y": 160,
         "wires": [
             [
                 "90b762dd4dafd8ae"
@@ -21247,7 +21318,7 @@
         "name": "SerialCheck",
         "info": "Before passing a message to the SerialPort checks if the port is connected.\n\nThe delay is necessary to avoid problem during reconnection.",
         "x": 850,
-        "y": 160,
+        "y": 180,
         "wires": []
     },
     {
@@ -21269,7 +21340,7 @@
         "repair": false,
         "outputs": 1,
         "x": 665,
-        "y": 420,
+        "y": 440,
         "wires": [
             [
                 "c55fa94dcfe6432b"
@@ -21614,7 +21685,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 580,
+        "y": 600,
         "wires": [
             [
                 "685026ec739f6b5d"
@@ -21643,7 +21714,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 230,
-        "y": 580,
+        "y": 600,
         "wires": [
             [
                 "17c9dbf9e8e1e780"
@@ -21669,7 +21740,7 @@
         "repair": false,
         "outputs": 1,
         "x": 665,
-        "y": 580,
+        "y": 600,
         "wires": [
             [
                 "024b1ff0d66c7dd1"
@@ -21684,8 +21755,8 @@
         "g": "561e4b3107c1df40",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 800,
-        "y": 580,
+        "x": 790,
+        "y": 600,
         "wires": [
             []
         ]
@@ -21771,7 +21842,7 @@
         "g": "47cd93d9e02b875f",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 820,
+        "x": 810,
         "y": 1420,
         "wires": [
             [
@@ -21890,7 +21961,7 @@
         "g": "47cd93d9e02b875f",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 600,
+        "x": 590,
         "y": 1520,
         "wires": [
             [
@@ -21980,7 +22051,7 @@
         "finalize": "",
         "libs": [],
         "x": 1030,
-        "y": 420,
+        "y": 440,
         "wires": [
             [
                 "2e3b04096c8c94fd",
@@ -22194,7 +22265,7 @@
         "g": "b7d565f8c1d444b8",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 700,
+        "x": 690,
         "y": 2120,
         "wires": [
             [
@@ -22370,7 +22441,7 @@
         "g": "24e132b47f14d181",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2015,
+        "x": 2005,
         "y": 500,
         "wires": [
             [
@@ -22502,7 +22573,7 @@
         "g": "702687925deb0843",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 720,
+        "x": 710,
         "y": 860,
         "wires": [
             []
@@ -22582,7 +22653,7 @@
         "g": "f4fb29b761a43644",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2160,
+        "x": 2150,
         "y": 960,
         "wires": [
             []
@@ -22680,7 +22751,7 @@
         "g": "f4fb29b761a43644",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2180,
+        "x": 2170,
         "y": 900,
         "wires": [
             []
@@ -22901,7 +22972,7 @@
         "g": "f20de75c380fd5a1",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 1980,
+        "x": 1970,
         "y": 1240,
         "wires": [
             [
@@ -22916,7 +22987,7 @@
         "g": "f20de75c380fd5a1",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2000,
+        "x": 1990,
         "y": 1060,
         "wires": [
             [
@@ -22931,7 +23002,7 @@
         "g": "f20de75c380fd5a1",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2000,
+        "x": 1990,
         "y": 1620,
         "wires": [
             [
@@ -22993,7 +23064,7 @@
         "g": "f20de75c380fd5a1",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 1980,
+        "x": 1970,
         "y": 1840,
         "wires": [
             [
@@ -23008,7 +23079,7 @@
         "g": "f20de75c380fd5a1",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2040,
+        "x": 2030,
         "y": 1320,
         "wires": [
             [
@@ -23095,7 +23166,7 @@
         "g": "f20de75c380fd5a1",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2040,
+        "x": 2030,
         "y": 1140,
         "wires": [
             [
@@ -23196,7 +23267,7 @@
         "g": "f20de75c380fd5a1",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2040,
+        "x": 2030,
         "y": 1720,
         "wires": [
             [
@@ -23283,7 +23354,7 @@
         "g": "f20de75c380fd5a1",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2000,
+        "x": 1990,
         "y": 1960,
         "wires": [
             [
@@ -23876,7 +23947,7 @@
         "g": "f20de75c380fd5a1",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2000,
+        "x": 1990,
         "y": 1420,
         "wires": [
             [
@@ -23995,7 +24066,7 @@
         "g": "f20de75c380fd5a1",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2000,
+        "x": 1990,
         "y": 1520,
         "wires": [
             [
@@ -24160,7 +24231,7 @@
         "g": "e587a3b0695cfa81",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 1780,
+        "x": 1770,
         "y": 2620,
         "wires": [
             [
@@ -24247,7 +24318,7 @@
         "g": "e587a3b0695cfa81",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2080,
+        "x": 2070,
         "y": 2280,
         "wires": [
             [
@@ -24348,7 +24419,7 @@
         "g": "e587a3b0695cfa81",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2050,
+        "x": 2040,
         "y": 2440,
         "wires": [
             [
@@ -24715,7 +24786,7 @@
         "g": "e587a3b0695cfa81",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2060,
+        "x": 2050,
         "y": 2140,
         "wires": [
             [
@@ -24814,7 +24885,7 @@
         "g": "3afdcbb83fb506dc",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 1840,
+        "x": 1830,
         "y": 3200,
         "wires": [
             [
@@ -25238,7 +25309,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 360,
-        "y": 80,
+        "y": 100,
         "wires": []
     },
     {
@@ -25260,7 +25331,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1185,
-        "y": 140,
+        "y": 160,
         "wires": [
             [
                 "ecebd9b7a6f8ecbc"
@@ -25287,7 +25358,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1055,
-        "y": 220,
+        "y": 240,
         "wires": [
             [
                 "95e59dc45b6997f5"
@@ -25379,7 +25450,7 @@
         "g": "40307daeed3932d5",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 650,
+        "x": 640,
         "y": 2740,
         "wires": [
             [
@@ -25460,7 +25531,7 @@
         "g": "40307daeed3932d5",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 720,
+        "x": 710,
         "y": 2860,
         "wires": [
             [
@@ -25704,7 +25775,7 @@
         "g": "c9bcb7291c22896b",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 1970,
+        "x": 1960,
         "y": 2740,
         "wires": [
             [
@@ -25785,7 +25856,7 @@
         "g": "c9bcb7291c22896b",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2040,
+        "x": 2030,
         "y": 2860,
         "wires": [
             [
@@ -25996,7 +26067,7 @@
         "g": "4ef0efaa97b006f2",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3340,
+        "x": 3330,
         "y": 960,
         "wires": [
             []
@@ -26094,7 +26165,7 @@
         "g": "4ef0efaa97b006f2",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3360,
+        "x": 3350,
         "y": 900,
         "wires": [
             []
@@ -26174,7 +26245,7 @@
         "g": "c8d07438ea0981fb",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4460,
+        "x": 4450,
         "y": 940,
         "wires": [
             []
@@ -26272,7 +26343,7 @@
         "g": "c8d07438ea0981fb",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4480,
+        "x": 4470,
         "y": 880,
         "wires": [
             []
@@ -26493,7 +26564,7 @@
         "g": "76708897e5041bc9",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3220,
+        "x": 3210,
         "y": 1240,
         "wires": [
             [
@@ -26508,7 +26579,7 @@
         "g": "76708897e5041bc9",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3240,
+        "x": 3230,
         "y": 1060,
         "wires": [
             [
@@ -26523,7 +26594,7 @@
         "g": "76708897e5041bc9",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3240,
+        "x": 3230,
         "y": 1620,
         "wires": [
             [
@@ -26585,7 +26656,7 @@
         "g": "76708897e5041bc9",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3220,
+        "x": 3210,
         "y": 1840,
         "wires": [
             [
@@ -26600,7 +26671,7 @@
         "g": "76708897e5041bc9",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3280,
+        "x": 3270,
         "y": 1320,
         "wires": [
             [
@@ -26687,7 +26758,7 @@
         "g": "76708897e5041bc9",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3280,
+        "x": 3270,
         "y": 1140,
         "wires": [
             [
@@ -26788,7 +26859,7 @@
         "g": "76708897e5041bc9",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3280,
+        "x": 3270,
         "y": 1720,
         "wires": [
             [
@@ -26875,7 +26946,7 @@
         "g": "76708897e5041bc9",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3200,
+        "x": 3190,
         "y": 1960,
         "wires": [
             [
@@ -27468,7 +27539,7 @@
         "g": "76708897e5041bc9",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3240,
+        "x": 3230,
         "y": 1420,
         "wires": [
             [
@@ -27587,7 +27658,7 @@
         "g": "76708897e5041bc9",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3240,
+        "x": 3230,
         "y": 1520,
         "wires": [
             [
@@ -27752,7 +27823,7 @@
         "g": "4bb98bb9b4dea328",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3060,
+        "x": 3050,
         "y": 2620,
         "wires": [
             [
@@ -27839,7 +27910,7 @@
         "g": "4bb98bb9b4dea328",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3260,
+        "x": 3250,
         "y": 2280,
         "wires": [
             [
@@ -27940,7 +28011,7 @@
         "g": "4bb98bb9b4dea328",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3230,
+        "x": 3220,
         "y": 2440,
         "wires": [
             [
@@ -28307,7 +28378,7 @@
         "g": "4bb98bb9b4dea328",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3240,
+        "x": 3230,
         "y": 2140,
         "wires": [
             [
@@ -28593,7 +28664,7 @@
         "g": "0596fbac6cc85139",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3230,
+        "x": 3220,
         "y": 2740,
         "wires": [
             [
@@ -28674,7 +28745,7 @@
         "g": "0596fbac6cc85139",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3300,
+        "x": 3290,
         "y": 2860,
         "wires": [
             [
@@ -29004,7 +29075,7 @@
         "g": "8e829fad2eab967a",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4360,
+        "x": 4350,
         "y": 1240,
         "wires": [
             [
@@ -29019,7 +29090,7 @@
         "g": "8e829fad2eab967a",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4380,
+        "x": 4370,
         "y": 1060,
         "wires": [
             [
@@ -29034,7 +29105,7 @@
         "g": "8e829fad2eab967a",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4380,
+        "x": 4370,
         "y": 1620,
         "wires": [
             [
@@ -29096,7 +29167,7 @@
         "g": "8e829fad2eab967a",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4360,
+        "x": 4350,
         "y": 1840,
         "wires": [
             [
@@ -29111,7 +29182,7 @@
         "g": "8e829fad2eab967a",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4420,
+        "x": 4410,
         "y": 1320,
         "wires": [
             [
@@ -29198,7 +29269,7 @@
         "g": "8e829fad2eab967a",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4420,
+        "x": 4410,
         "y": 1140,
         "wires": [
             [
@@ -29299,7 +29370,7 @@
         "g": "8e829fad2eab967a",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4420,
+        "x": 4410,
         "y": 1720,
         "wires": [
             [
@@ -29386,7 +29457,7 @@
         "g": "8e829fad2eab967a",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4380,
+        "x": 4370,
         "y": 1960,
         "wires": [
             [
@@ -29979,7 +30050,7 @@
         "g": "8e829fad2eab967a",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4380,
+        "x": 4370,
         "y": 1420,
         "wires": [
             [
@@ -30098,7 +30169,7 @@
         "g": "8e829fad2eab967a",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4380,
+        "x": 4370,
         "y": 1520,
         "wires": [
             [
@@ -30263,7 +30334,7 @@
         "g": "e95941fab369c9ba",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4280,
+        "x": 4270,
         "y": 2620,
         "wires": [
             [
@@ -30350,7 +30421,7 @@
         "g": "e95941fab369c9ba",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4360,
+        "x": 4350,
         "y": 2280,
         "wires": [
             [
@@ -30451,7 +30522,7 @@
         "g": "e95941fab369c9ba",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4330,
+        "x": 4320,
         "y": 2440,
         "wires": [
             [
@@ -30818,7 +30889,7 @@
         "g": "e95941fab369c9ba",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4340,
+        "x": 4330,
         "y": 2140,
         "wires": [
             [
@@ -31104,7 +31175,7 @@
         "g": "9651ab665e708ad0",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4430,
+        "x": 4420,
         "y": 2740,
         "wires": [
             [
@@ -31185,7 +31256,7 @@
         "g": "9651ab665e708ad0",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4500,
+        "x": 4490,
         "y": 2860,
         "wires": [
             [
@@ -31374,7 +31445,7 @@
         "g": "0855cc8ba4393cb0",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4240,
+        "x": 4230,
         "y": 3240,
         "wires": [
             [
@@ -31677,7 +31748,7 @@
         "g": "05eed25743f1d321",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2360,
+        "x": 2350,
         "y": 160,
         "wires": [
             [
@@ -32818,7 +32889,7 @@
         "g": "86f881d7c126268e",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 1090,
+        "x": 1080,
         "y": 3640,
         "wires": [
             [
@@ -33700,7 +33771,7 @@
         "g": "74ca9bc4bf0ed5bf",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 2340,
+        "x": 2330,
         "y": 3640,
         "wires": [
             [
@@ -34858,7 +34929,7 @@
         "g": "1855c17bf2cf4856",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3530,
+        "x": 3520,
         "y": 3640,
         "wires": [
             [
@@ -35964,7 +36035,7 @@
         "g": "a2b1c08b9d25be5b",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 4770,
+        "x": 4760,
         "y": 3660,
         "wires": [
             [
@@ -36382,7 +36453,7 @@
         "showGlow": true,
         "name": "Status",
         "x": 1030,
-        "y": 40,
+        "y": 60,
         "wires": []
     },
     {
@@ -36424,7 +36495,7 @@
         "g": "c1c3e686be456b09",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 560,
+        "x": 550,
         "y": 3200,
         "wires": [
             [
@@ -36620,7 +36691,7 @@
         "g": "549be46d2147b9d9",
         "name": "",
         "serial": "dee14e35813c977a",
-        "x": 3100,
+        "x": 3090,
         "y": 3160,
         "wires": [
             [
@@ -59891,7 +59962,7 @@
         "z": "3662342594f3d264",
         "g": "1f49102a5e8fad89",
         "name": "debug 318",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
