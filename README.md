@@ -12,6 +12,22 @@ Functionalities or code that need To Be Checked is marked as (<mark>TBC</mark>).
 
 (<mark>TBC</mark>)
 
+The code is composed of the following flows:
+
+ - **CAEN** 
+ 	 + High Voltage Power Supply (HVPS) for TPC
+ 	 	+ Cathode: *channel0* 
+ 	 	+ Mesh:  *channel1*
+ 	 	+ Top:  *channel2*
+ 	 	+ Bottom:  *channel3*
+ 	 + CAEN DT5521HE 
+		+ Before 2025/12/10 it was a N1471HA
+	 + SerialPort `dev/ID1_CT_HV` 
+ - **Multicomp**
+     + Voltage supply for DAQ
+	 + Multicomp MP710086
+	 + SerialPort `/dev/ID1_DAQ_PS`
+
 ## Database
 
 - Postgressql Database
