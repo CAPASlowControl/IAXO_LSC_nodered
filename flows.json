@@ -108,6 +108,22 @@
         "env": []
     },
     {
+        "id": "7ac76184d6f8d736",
+        "type": "tab",
+        "label": "O2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "265c62f722efc8df",
+        "type": "tab",
+        "label": "MZD_MT20",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "7c5bfbda03d459cf",
         "type": "subflow",
         "name": "SF BK-ELPRESS MB M2P Func",
@@ -633,9 +649,7 @@
             "fa7735ad4b4f6298"
         ],
         "x": 794,
-        "y": 1739,
-        "w": 712,
-        "h": 642
+        "y": 1739
     },
     {
         "id": "ae13f41c35bfb8b7",
@@ -1153,9 +1167,7 @@
             "817fa2a72b58041a"
         ],
         "x": 54,
-        "y": 1779,
-        "w": 582,
-        "h": 182
+        "y": 1779
     },
     {
         "id": "653da71d018d2109",
@@ -1602,9 +1614,7 @@
             "9f12ca5797ae58f8"
         ],
         "x": 18,
-        "y": 53,
-        "w": 1640,
-        "h": 1314
+        "y": 53
     },
     {
         "id": "cd1b44b6217a30f0",
@@ -1624,9 +1634,7 @@
             "caf6bddda1864df1"
         ],
         "x": 1788,
-        "y": 73,
-        "w": 1890,
-        "h": 1160
+        "y": 73
     },
     {
         "id": "561e4b3107c1df40",
@@ -2742,9 +2750,7 @@
         },
         "nodes": [],
         "x": 0,
-        "y": 0,
-        "w": 40,
-        "h": 40
+        "y": 0
     },
     {
         "id": "1b1e03d461937177",
@@ -2761,9 +2767,7 @@
         },
         "nodes": [],
         "x": 0,
-        "y": 0,
-        "w": 40,
-        "h": 40
+        "y": 0
     },
     {
         "id": "fb04b7f4119ba420",
@@ -2782,9 +2786,109 @@
             "4bdffd65e437c885"
         ],
         "x": 1728,
-        "y": 1273,
-        "w": 1930,
-        "h": 1420
+        "y": 1273
+    },
+    {
+        "id": "80a6e0c1ddd77e57",
+        "type": "group",
+        "z": "265c62f722efc8df",
+        "name": "Not Used Alarms",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "38977569b55ffbf0",
+            "bf9be90938ec0ffd",
+            "6fd59d6e2150aa5e",
+            "f4edc3c91a3df72d",
+            "bf55badc783deedc",
+            "31d90f545b373d74",
+            "9b3ca4c4131cc464",
+            "0876c45009429bd2",
+            "fe80ac34a8d75d06",
+            "e686fb10760cf28b",
+            "91c06b9b1c3e79d3",
+            "98bd2f90e07c8191",
+            "14801fc0c67af0ea",
+            "4cff3666d5497f14",
+            "8baf758cde5cac31",
+            "96ee3b7bc71f30d7"
+        ],
+        "x": 634,
+        "y": 979,
+        "w": 872,
+        "h": 522
+    },
+    {
+        "id": "3ef0224f2e396226",
+        "type": "group",
+        "z": "265c62f722efc8df",
+        "name": "Measurments",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e1144bc02f821060",
+            "9c604b2c9998f2e0",
+            "a88ff1f89eb4b3ca",
+            "498f0b9646e4d5f8",
+            "d0ad5479c7a283b8",
+            "505ed2a0fb70c5ba",
+            "c1a13e7545e7949e"
+        ],
+        "x": 654,
+        "y": 319,
+        "w": 472,
+        "h": 222
+    },
+    {
+        "id": "5f28596e94d74dc7",
+        "type": "group",
+        "z": "265c62f722efc8df",
+        "name": "Alarms",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fee88bebc31ff264",
+            "463bd5eca5c49f22",
+            "be2a47743d022efd",
+            "951f14adab93f9eb",
+            "1a48bec3d88e29c5",
+            "c35219fb6b563de3",
+            "380f79f0f5281c61",
+            "2011895ebb1e4d99",
+            "93e4805532f647fe",
+            "c42aaded232b5495",
+            "9ca48d646baf3292",
+            "9f811539cf3173fc"
+        ],
+        "x": 634,
+        "y": 559,
+        "w": 832,
+        "h": 382
+    },
+    {
+        "id": "b94b6e5f86f89c95",
+        "type": "group",
+        "z": "265c62f722efc8df",
+        "name": "Chheck Connection",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5797fbd9cc47cf58",
+            "0c3ebc490d312255",
+            "90f94116fe36c1b2",
+            "e3161039df74591f",
+            "58ada1f0207e7d2b",
+            "08af843bbf3e5edb",
+            "fdb0d3e37252e47f"
+        ],
+        "x": 334,
+        "y": 119,
+        "w": 1112,
+        "h": 162
     },
     {
         "id": "1c0573eef2dd3204",
@@ -3079,9 +3183,7 @@
             "700248a9b43b8320"
         ],
         "x": 84,
-        "y": 479,
-        "w": 1192,
-        "h": 162
+        "y": 479
     },
     {
         "id": "1fac836027273591",
@@ -3115,9 +3217,7 @@
             "6b274926e14b4bc9"
         ],
         "x": 44,
-        "y": 79,
-        "w": 1472,
-        "h": 362
+        "y": 79
     },
     {
         "id": "ec5cdae4cd1d52a5",
@@ -3139,9 +3239,7 @@
             "3aa8e94f2b98a928"
         ],
         "x": 844,
-        "y": 1259,
-        "w": 732,
-        "h": 82
+        "y": 1259
     },
     {
         "id": "2d4148e1d781200b",
@@ -3165,9 +3263,7 @@
             "4b7abc1b49a428cc"
         ],
         "x": 1874,
-        "y": 99,
-        "w": 732,
-        "h": 142
+        "y": 99
     },
     {
         "id": "d41015161e46f9e1",
@@ -3198,9 +3294,7 @@
             "7daf3d597724b73a"
         ],
         "x": 1814,
-        "y": 319,
-        "w": 1812,
-        "h": 162
+        "y": 319
     },
     {
         "id": "ae9c8e46e60c9c26",
@@ -3226,9 +3320,7 @@
             "9cae84b782eae460"
         ],
         "x": 1894,
-        "y": 499,
-        "w": 1402,
-        "h": 142
+        "y": 499
     },
     {
         "id": "2dc276f6058c4f73",
@@ -3610,9 +3702,7 @@
             "4c3e495cbe4e4c63"
         ],
         "x": 58,
-        "y": 713,
-        "w": 1574,
-        "h": 534
+        "y": 713
     },
     {
         "id": "2e06a3289772bdc7",
@@ -3629,9 +3719,7 @@
             "e85f49d9c0282e3b"
         ],
         "x": 1888,
-        "y": 673,
-        "w": 1764,
-        "h": 534
+        "y": 673
     },
     {
         "id": "2a08051715af4acb",
@@ -3655,9 +3743,7 @@
             "d1bb374d3b0b66f6"
         ],
         "x": 1754,
-        "y": 1299,
-        "w": 742,
-        "h": 142
+        "y": 1299
     },
     {
         "id": "32cd0c39ace06045",
@@ -3687,9 +3773,7 @@
             "c1802380820c50fe"
         ],
         "x": 1814,
-        "y": 1499,
-        "w": 1412,
-        "h": 202
+        "y": 1499
     },
     {
         "id": "d2a40e96c6e87f84",
@@ -3706,9 +3790,7 @@
             "e6e619ffb5222c61"
         ],
         "x": 1828,
-        "y": 2113,
-        "w": 1804,
-        "h": 554
+        "y": 2113
     },
     {
         "id": "89e27fe3e1de11e2",
@@ -3734,9 +3816,7 @@
             "863361a7dd3b77a8"
         ],
         "x": 1814,
-        "y": 1719,
-        "w": 1362,
-        "h": 162
+        "y": 1719
     },
     {
         "id": "6cc714fae545a145",
@@ -3765,9 +3845,7 @@
             "0e5ab5ea97ec55ce"
         ],
         "x": 124,
-        "y": 739,
-        "w": 1482,
-        "h": 142
+        "y": 739
     },
     {
         "id": "09c6ccc4b57d205a",
@@ -3795,9 +3873,7 @@
             "f994469f28332337"
         ],
         "x": 84,
-        "y": 899,
-        "w": 1472,
-        "h": 142
+        "y": 899
     },
     {
         "id": "4c3e495cbe4e4c63",
@@ -3814,9 +3890,7 @@
             "6eaf5c6526306c52"
         ],
         "x": 104,
-        "y": 1079,
-        "w": 432,
-        "h": 142
+        "y": 1079
     },
     {
         "id": "2b5dbd26f1d47b83",
@@ -3839,9 +3913,7 @@
             "1f6980f37e6f9548"
         ],
         "x": 1914,
-        "y": 1039,
-        "w": 722,
-        "h": 142
+        "y": 1039
     },
     {
         "id": "c91a2c65ef2a227b",
@@ -3871,9 +3943,7 @@
             "8c1d9eef42b460e0"
         ],
         "x": 1914,
-        "y": 879,
-        "w": 1712,
-        "h": 142
+        "y": 879
     },
     {
         "id": "e85f49d9c0282e3b",
@@ -3904,9 +3974,7 @@
             "fd8e38baf7959627"
         ],
         "x": 1914,
-        "y": 699,
-        "w": 1542,
-        "h": 162
+        "y": 699
     },
     {
         "id": "252f0d91daf598e4",
@@ -4123,9 +4191,7 @@
             "a66d5dcc91a36cd8"
         ],
         "x": 1874,
-        "y": 2499,
-        "w": 752,
-        "h": 142
+        "y": 2499
     },
     {
         "id": "3023a32a9748eade",
@@ -4155,9 +4221,7 @@
             "31e5e804c443464d"
         ],
         "x": 1874,
-        "y": 2319,
-        "w": 1732,
-        "h": 142
+        "y": 2319
     },
     {
         "id": "e6e619ffb5222c61",
@@ -4188,9 +4252,7 @@
             "357a8b49abd993c2"
         ],
         "x": 1854,
-        "y": 2139,
-        "w": 1642,
-        "h": 142
+        "y": 2139
     },
     {
         "id": "67018f7a.7112a8",
@@ -4388,15 +4450,6 @@
         "width": "6",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "49f2e7d3.f78d88",
-        "type": "ui_tab",
-        "name": "Gas Charts",
-        "icon": "fa-area-chart",
-        "order": 6,
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "aad03547.b42268",
@@ -5154,7 +5207,7 @@
     {
         "id": "0b2423ed9d5f1954",
         "type": "ui_tab",
-        "name": "Binary Gas Analyzer",
+        "name": "BGA / Moist. / O2",
         "icon": "dashboard",
         "order": 16,
         "disabled": false,
@@ -5350,6 +5403,77 @@
         "name": "Connection",
         "tab": "ace5b427.951948",
         "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a4fc396f.153838",
+        "type": "serial-port",
+        "serialport": "/dev/ID1_CT_O2",
+        "serialbaud": "19200",
+        "databits": "8",
+        "parity": "even",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "1000"
+    },
+    {
+        "id": "f85966399fec921a",
+        "type": "ui_group",
+        "name": "Oxygen Analyzer",
+        "tab": "0b2423ed9d5f1954",
+        "order": 9,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5f5527c040963b39",
+        "type": "modbus-client",
+        "name": "/dev/ID1_CT_MOIS",
+        "clienttype": "serial",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "127.0.0.1",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ID1_CT_MOIS",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "400",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": false,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "31b41635c3ecd78b",
+        "type": "ui_group",
+        "name": "Humidity Sensor (MZD MT20)",
+        "tab": "0b2423ed9d5f1954",
+        "order": 10,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -6093,7 +6217,7 @@
         "showGlow": true,
         "name": "ID1_PT_DI Connection Status",
         "x": 1170,
-        "y": 240,
+        "y": 220,
         "wires": []
     },
     {
@@ -50194,6 +50318,1470 @@
         "info": "",
         "x": 540,
         "y": 20,
+        "wires": []
+    },
+    {
+        "id": "5be323484489da3e",
+        "type": "serial request",
+        "z": "7ac76184d6f8d736",
+        "name": "O2",
+        "serial": "a4fc396f.153838",
+        "x": 670,
+        "y": 320,
+        "wires": [
+            [
+                "252397af1c56953b"
+            ]
+        ]
+    },
+    {
+        "id": "4469d75a41dced1a",
+        "type": "inject",
+        "z": "7ac76184d6f8d736",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 330,
+        "y": 320,
+        "wires": [
+            [
+                "799cc958140a0267"
+            ]
+        ]
+    },
+    {
+        "id": "3c6ead52b9c38de4",
+        "type": "function",
+        "z": "7ac76184d6f8d736",
+        "name": "Get ppm",
+        "func": "let result  = msg.payload.substring(7,15);\n\nlet number = parseFloat(result)/100;\n\nmsg.payload = number;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 280,
+        "wires": [
+            [
+                "1346c4228b818ede"
+            ]
+        ]
+    },
+    {
+        "id": "799cc958140a0267",
+        "type": "function",
+        "z": "7ac76184d6f8d736",
+        "name": ":010400000004F7",
+        "func": "msg.payload =\":010400000004F7\\r\\n\"\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 320,
+        "wires": [
+            [
+                "5be323484489da3e"
+            ]
+        ]
+    },
+    {
+        "id": "1346c4228b818ede",
+        "type": "ui_text",
+        "z": "7ac76184d6f8d736",
+        "group": "f85966399fec921a",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Oxygen Concentration (ppm)",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1180,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "252397af1c56953b",
+        "type": "switch",
+        "z": "7ac76184d6f8d736",
+        "name": "status==OK",
+        "property": "status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OK",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "OK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 810,
+        "y": 320,
+        "wires": [
+            [
+                "3c6ead52b9c38de4",
+                "f2a66565e616270b"
+            ],
+            [
+                "67ff0d879fb81bc0"
+            ]
+        ]
+    },
+    {
+        "id": "67ff0d879fb81bc0",
+        "type": "debug",
+        "z": "7ac76184d6f8d736",
+        "name": "O2 Error",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "f2a66565e616270b",
+        "type": "debug",
+        "z": "7ac76184d6f8d736",
+        "name": "O2 Value",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "2ac741854c792c08",
+        "type": "modbus-getter",
+        "z": "265c62f722efc8df",
+        "name": "MT20",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "InputRegister",
+        "adr": "0",
+        "quantity": "64",
+        "server": "5f5527c040963b39",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 230,
+        "y": 340,
+        "wires": [
+            [
+                "5797fbd9cc47cf58"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0d45604dd5d7ed97",
+        "type": "inject",
+        "z": "265c62f722efc8df",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 110,
+        "y": 340,
+        "wires": [
+            [
+                "2ac741854c792c08"
+            ]
+        ]
+    },
+    {
+        "id": "463bd5eca5c49f22",
+        "type": "ui_text",
+        "z": "265c62f722efc8df",
+        "g": "5f28596e94d74dc7",
+        "group": "31b41635c3ecd78b",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "System Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1360,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "be2a47743d022efd",
+        "type": "ui_text",
+        "z": "265c62f722efc8df",
+        "g": "5f28596e94d74dc7",
+        "group": "31b41635c3ecd78b",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sensor Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1320,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "e1144bc02f821060",
+        "type": "function",
+        "z": "265c62f722efc8df",
+        "g": "3ef0224f2e396226",
+        "name": "Measure Regs[0-1]",
+        "func": "\nlet word0=msg.payload[0];\nlet word1=msg.payload[1];\n\n\n//const buf = Buffer.allocUnsafe(4);\nlet buf = Buffer.alloc(4);\nbuf.writeUInt16BE(word0, 0);\nbuf.writeUInt16BE(word1, 2);\n\nmsg.payload = buf.readFloatBE(0);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 360,
+        "wires": [
+            [
+                "9c604b2c9998f2e0"
+            ]
+        ]
+    },
+    {
+        "id": "9c604b2c9998f2e0",
+        "type": "ui_text",
+        "z": "265c62f722efc8df",
+        "g": "3ef0224f2e396226",
+        "group": "31b41635c3ecd78b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Measurement (ppmV)",
+        "format": "{{msg.payload|number:2}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1000,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "fee88bebc31ff264",
+        "type": "switch",
+        "z": "265c62f722efc8df",
+        "g": "5f28596e94d74dc7",
+        "name": "Reg[23] (Sensor Status)",
+        "property": "payload[23]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 770,
+        "y": 860,
+        "wires": [
+            [
+                "c42aaded232b5495"
+            ],
+            [
+                "9ca48d646baf3292"
+            ],
+            [
+                "9f811539cf3173fc"
+            ]
+        ]
+    },
+    {
+        "id": "951f14adab93f9eb",
+        "type": "switch",
+        "z": "265c62f722efc8df",
+        "g": "5f28596e94d74dc7",
+        "name": "Reg[20] (System Status)",
+        "property": "payload[20]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "num"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 5,
+        "x": 770,
+        "y": 660,
+        "wires": [
+            [
+                "1a48bec3d88e29c5"
+            ],
+            [
+                "c35219fb6b563de3"
+            ],
+            [
+                "380f79f0f5281c61"
+            ],
+            [
+                "2011895ebb1e4d99"
+            ],
+            [
+                "93e4805532f647fe"
+            ]
+        ]
+    },
+    {
+        "id": "1a48bec3d88e29c5",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "g": "5f28596e94d74dc7",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Normal",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 600,
+        "wires": [
+            [
+                "463bd5eca5c49f22"
+            ]
+        ]
+    },
+    {
+        "id": "c35219fb6b563de3",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "g": "5f28596e94d74dc7",
+        "name": "Check function",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Check function",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 640,
+        "wires": [
+            [
+                "463bd5eca5c49f22"
+            ]
+        ]
+    },
+    {
+        "id": "380f79f0f5281c61",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "g": "5f28596e94d74dc7",
+        "name": "Maintenance Required",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Maintenance Required",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 680,
+        "wires": [
+            [
+                "463bd5eca5c49f22"
+            ]
+        ]
+    },
+    {
+        "id": "2011895ebb1e4d99",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "g": "5f28596e94d74dc7",
+        "name": " Out of Specification",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": " Out of Specification",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 720,
+        "wires": [
+            [
+                "463bd5eca5c49f22"
+            ]
+        ]
+    },
+    {
+        "id": "93e4805532f647fe",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "g": "5f28596e94d74dc7",
+        "name": "Failure",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Failure",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 760,
+        "wires": [
+            [
+                "463bd5eca5c49f22"
+            ]
+        ]
+    },
+    {
+        "id": "c42aaded232b5495",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "g": "5f28596e94d74dc7",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Normal",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 820,
+        "wires": [
+            [
+                "be2a47743d022efd"
+            ]
+        ]
+    },
+    {
+        "id": "9ca48d646baf3292",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "g": "5f28596e94d74dc7",
+        "name": "Sensor check",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Sensor check",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 860,
+        "wires": [
+            [
+                "be2a47743d022efd"
+            ]
+        ]
+    },
+    {
+        "id": "9f811539cf3173fc",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "g": "5f28596e94d74dc7",
+        "name": "Not clean",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Not clean",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 900,
+        "wires": [
+            [
+                "be2a47743d022efd"
+            ]
+        ]
+    },
+    {
+        "id": "a88ff1f89eb4b3ca",
+        "type": "ui_text",
+        "z": "265c62f722efc8df",
+        "g": "3ef0224f2e396226",
+        "group": "31b41635c3ecd78b",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "MCU Chip Temperature Reg[28]",
+        "label": "MCU Chip Temperature",
+        "format": "{{msg.payload[28]}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 810,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "498f0b9646e4d5f8",
+        "type": "function",
+        "z": "265c62f722efc8df",
+        "g": "3ef0224f2e396226",
+        "name": "Measure Regs[8-9]",
+        "func": "\nlet word0=msg.payload[8];\nlet word1=msg.payload[9];\n\n\n//const buf = Buffer.allocUnsafe(4);\nlet buf = Buffer.alloc(4);\nbuf.writeUInt16BE(word0, 0);\nbuf.writeUInt16BE(word1, 2);\n\nmsg.payload = buf.readFloatBE(0);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 400,
+        "wires": [
+            [
+                "505ed2a0fb70c5ba"
+            ]
+        ]
+    },
+    {
+        "id": "d0ad5479c7a283b8",
+        "type": "function",
+        "z": "265c62f722efc8df",
+        "g": "3ef0224f2e396226",
+        "name": "Measure Regs[10-11]",
+        "func": "\nlet word0=msg.payload[10];\nlet word1=msg.payload[11];\n\n\n//const buf = Buffer.allocUnsafe(4);\nlet buf = Buffer.alloc(4);\nbuf.writeUInt16BE(word0, 0);\nbuf.writeUInt16BE(word1, 2);\n\nmsg.payload = buf.readFloatBE(0);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 440,
+        "wires": [
+            [
+                "c1a13e7545e7949e"
+            ]
+        ]
+    },
+    {
+        "id": "505ed2a0fb70c5ba",
+        "type": "ui_text",
+        "z": "265c62f722efc8df",
+        "g": "3ef0224f2e396226",
+        "group": "31b41635c3ecd78b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Measurement (ppmW)",
+        "format": "{{msg.payload|number:2}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1000,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "c1a13e7545e7949e",
+        "type": "ui_text",
+        "z": "265c62f722efc8df",
+        "g": "3ef0224f2e396226",
+        "group": "31b41635c3ecd78b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Dewpoint (ºC)",
+        "format": "{{msg.payload|number:2}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1000,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "bf9be90938ec0ffd",
+        "type": "ui_text",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "group": "31b41635c3ecd78b",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Calibration Curve Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1350,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "38977569b55ffbf0",
+        "type": "switch",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "Reg[21] (Calibration Curve Status)",
+        "property": "payload[21]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 800,
+        "y": 1060,
+        "wires": [
+            [
+                "6fd59d6e2150aa5e"
+            ],
+            [
+                "f4edc3c91a3df72d"
+            ],
+            [
+                "bf55badc783deedc"
+            ]
+        ]
+    },
+    {
+        "id": "6fd59d6e2150aa5e",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "Good",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Good",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1070,
+        "y": 1020,
+        "wires": [
+            [
+                "bf9be90938ec0ffd"
+            ]
+        ]
+    },
+    {
+        "id": "f4edc3c91a3df72d",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "Poor",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Poor",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1070,
+        "y": 1060,
+        "wires": [
+            [
+                "bf9be90938ec0ffd"
+            ]
+        ]
+    },
+    {
+        "id": "bf55badc783deedc",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "Bad",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Bad",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1070,
+        "y": 1100,
+        "wires": [
+            [
+                "bf9be90938ec0ffd"
+            ]
+        ]
+    },
+    {
+        "id": "31d90f545b373d74",
+        "type": "ui_text",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "group": "31b41635c3ecd78b",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Process Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1320,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "9b3ca4c4131cc464",
+        "type": "switch",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "Reg[22] (Process Status)",
+        "property": "payload[22]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "num"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 5,
+        "x": 770,
+        "y": 1220,
+        "wires": [
+            [
+                "0876c45009429bd2"
+            ],
+            [
+                "fe80ac34a8d75d06"
+            ],
+            [
+                "e686fb10760cf28b"
+            ],
+            [
+                "91c06b9b1c3e79d3"
+            ],
+            [
+                "98bd2f90e07c8191"
+            ]
+        ]
+    },
+    {
+        "id": "0876c45009429bd2",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Normal",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1080,
+        "y": 1180,
+        "wires": [
+            [
+                "31d90f545b373d74"
+            ]
+        ]
+    },
+    {
+        "id": "fe80ac34a8d75d06",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "Low Alarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Low Alarm",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 1220,
+        "wires": [
+            [
+                "31d90f545b373d74"
+            ]
+        ]
+    },
+    {
+        "id": "e686fb10760cf28b",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "HIgh Alarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "HIgh Alarm",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 1260,
+        "wires": [
+            [
+                "31d90f545b373d74"
+            ]
+        ]
+    },
+    {
+        "id": "91c06b9b1c3e79d3",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "Low Low Alarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Low Alarm",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 1300,
+        "wires": [
+            [
+                "31d90f545b373d74"
+            ]
+        ]
+    },
+    {
+        "id": "98bd2f90e07c8191",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "HIgh High Alarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Low Alarm",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 1340,
+        "wires": [
+            [
+                "31d90f545b373d74"
+            ]
+        ]
+    },
+    {
+        "id": "14801fc0c67af0ea",
+        "type": "ui_text",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "group": "31b41635c3ecd78b",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "System Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "4cff3666d5497f14",
+        "type": "switch",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "Reg[24] (System Status)",
+        "property": "payload[24]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 850,
+        "y": 1460,
+        "wires": [
+            [
+                "8baf758cde5cac31"
+            ],
+            [
+                "96ee3b7bc71f30d7"
+            ]
+        ]
+    },
+    {
+        "id": "8baf758cde5cac31",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Normal",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 1420,
+        "wires": [
+            [
+                "14801fc0c67af0ea"
+            ]
+        ]
+    },
+    {
+        "id": "96ee3b7bc71f30d7",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "d": true,
+        "g": "80a6e0c1ddd77e57",
+        "name": "Failure",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Failure",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 1460,
+        "wires": [
+            [
+                "14801fc0c67af0ea"
+            ]
+        ]
+    },
+    {
+        "id": "5797fbd9cc47cf58",
+        "type": "switch",
+        "z": "265c62f722efc8df",
+        "g": "b94b6e5f86f89c95",
+        "name": "CheckConnection",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 450,
+        "y": 220,
+        "wires": [
+            [
+                "0c3ebc490d312255"
+            ],
+            [
+                "90f94116fe36c1b2",
+                "e1144bc02f821060",
+                "498f0b9646e4d5f8",
+                "d0ad5479c7a283b8",
+                "a88ff1f89eb4b3ca",
+                "951f14adab93f9eb",
+                "fee88bebc31ff264"
+            ]
+        ],
+        "info": "Modbus getter configured to give empty message upon error.\n"
+    },
+    {
+        "id": "0c3ebc490d312255",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "g": "b94b6e5f86f89c95",
+        "name": "MT20_st=0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MT20_st",
+                "pt": "global",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 160,
+        "wires": [
+            [
+                "58ada1f0207e7d2b",
+                "fdb0d3e37252e47f"
+            ]
+        ]
+    },
+    {
+        "id": "90f94116fe36c1b2",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "g": "b94b6e5f86f89c95",
+        "name": "MT20_st=1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MT20_st",
+                "pt": "global",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 240,
+        "wires": [
+            [
+                "58ada1f0207e7d2b",
+                "fdb0d3e37252e47f"
+            ]
+        ]
+    },
+    {
+        "id": "e3161039df74591f",
+        "type": "debug",
+        "z": "265c62f722efc8df",
+        "g": "b94b6e5f86f89c95",
+        "name": "Connection Debug Message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1280,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "58ada1f0207e7d2b",
+        "type": "rbe",
+        "z": "265c62f722efc8df",
+        "g": "b94b6e5f86f89c95",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 870,
+        "y": 240,
+        "wires": [
+            [
+                "08af843bbf3e5edb"
+            ]
+        ]
+    },
+    {
+        "id": "08af843bbf3e5edb",
+        "type": "change",
+        "z": "265c62f722efc8df",
+        "g": "b94b6e5f86f89c95",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "num",
+                "to": "MT20 DisConnected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "num",
+                "to": "MT20 Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 240,
+        "wires": [
+            [
+                "e3161039df74591f"
+            ]
+        ]
+    },
+    {
+        "id": "fdb0d3e37252e47f",
+        "type": "ui_led",
+        "z": "265c62f722efc8df",
+        "g": "b94b6e5f86f89c95",
+        "order": 10,
+        "group": "31b41635c3ecd78b",
+        "width": 0,
+        "height": 0,
+        "label": "Connected",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#008000",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Connected",
+        "x": 930,
+        "y": 160,
         "wires": []
     }
 ]
