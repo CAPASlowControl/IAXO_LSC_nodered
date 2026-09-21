@@ -27,6 +27,15 @@ The code is composed of the following flows:
      + Voltage supply for DAQ
 	 + Multicomp MP710086
 	 + SerialPort `/dev/ID1_DAQ_PS`
+ - **MZD/SMART MT20 MoistureAnalyzer**
+     + Moisture Analyzer
+     + Communication using RS485 and DA-70157 USB adapter
+       + Adator cabling A+ and B-
+ - **Southland EMD 485 Oxygen Analyzer**
+     + Oxygen Analyzer
+     + Communication using RS485 and DA-70157 USB adapter
+       + Adator cabling A+ and B-
+       + Sensor Cabling: TH:White / TH: Blue / - Black / + Red
 
 ## Database
 

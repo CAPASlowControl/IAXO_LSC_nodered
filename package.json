@@ -15,6 +15,7 @@
     "node-red-contrib-ui-led": "~0.4.11",
     "node-red-contrib-ui-led2": "~0.4.19",
     "node-red-dashboard": "~3.6.5",
-    "node-red-node-serialport": "^1.0.1"
+    "node-red-node-serialport": "^1.0.1",
+    "utf-8-validate": "^6.0.6"
   }
 }
